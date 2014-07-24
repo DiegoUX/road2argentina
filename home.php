@@ -11,7 +11,7 @@
 			<div>
 				<h1>SPANISH CLASSES</h1>
 				<p>Lorem ipsum ad sidera met non dolor manque</p>
-				<a href="#">APPLY NOW</a>
+				<a href="#" class="btn">APPLY NOW</a>
 				</div>
 			</div>
 	</section>
