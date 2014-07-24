@@ -30,6 +30,48 @@ body {
 
 }
 
+// Section Post and Links...
+section.posts-and-links {
+	padding: 30px 0;
+
+	.links-blk {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+// Section video slider...
+section.video-slider {
+	padding: 30px 0;
+	background: $lightGray;
+}
+
+// Section quote...
+section.quote {
+	background: $white;
+	padding: 40px 0;
+    // font-size: 1.428em;
+    font-size: 1.3em;
+	color: $gray;
+	font-weight: 100;
+
+	.desc {
+		margin-top: 30px;
+	}
+
+	.rounded-radius {
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+	}
+
+	blockquote {
+		font-family: 'Merriweather', serif;
+		margin-bottom: 10px;
+	}
+}
+
 // Apply now section...
 section.apply {
 	background: url('/wp-content/themes/road2argentina-child/img/image-applynow.jpg') no-repeat scroll center center transparent;
