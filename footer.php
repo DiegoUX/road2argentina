@@ -1,17 +1,49 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
-
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<h3>Get in touch</h3>
+							<?php dynamic_sidebar( 'widget-footer-area-1' ); ?>
+						</div>
+						<div class="col-md-2">
+							<h3>Useful links</h3>
+							<?php dynamic_sidebar( 'widget-footer-area-2' ); ?>
+						</div>
+						<div class="col-md-4">
+							<h3>About us</h3>
+							<?php dynamic_sidebar( 'widget-footer-area-3' ); ?>
+						</div>
+						<div class="col-md-4">
+							<h3>Where to find us</h3>
+							<?php dynamic_sidebar( 'widget-footer-area-4' ); ?>
+							<div class="contact-form">
+								 <?php echo do_shortcode( '[contact-form-7 id="8" title="Contact form 1"]' ) ?> 
+							</div>
+						</div>
+					</div>
+				</div>
 			</footer>
 			<!-- /footer -->
+			<!-- /sub-footer -->
+			<section class="sub-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
+							<!-- copyright -->
+							<p class="copyright">
+								Copyright &copy; <?php echo date('Y'); ?> Road2Argentina.com. All Rights Reserved.
+							</p>
+							<!-- /copyright -->	
+						</div>
+						<div class="col-md-2">
+							<a href="#totop" class="backto">Back to Top</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-		</div>
+		<!-- </div> -->
 		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>
@@ -24,13 +56,6 @@
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
-		</script>
-
-		<script>
-			// For Demo purposes only
-			[].slice.call( document.querySelectorAll('nav > a') ).forEach( function(el) {
-				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
-			} );
 		</script>
 
 	</body>

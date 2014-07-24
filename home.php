@@ -2,42 +2,39 @@
 <?php remove_filter( 'the_content', 'wpautop' ); ?>
 <main role="main">
 
-<section class="slider">
+	<section class="slider">
+		<!--Plugin Slider -->
+		<?php echo do_shortcode("[metaslider id=11]"); ?>
+		<!--/ Plugin Slider -->
+
+		<div class="container billboard-legend">
+			<div>
+				<h1>SPANISH CLASSES</h1>
+				<p>Lorem ipsum ad sidera met non dolor manque</p>
+				<a href="#">APPLY NOW</a>
+				</div>
+			</div>
+	</section>
 
 	
-	<!--Plugin Slider -->
-	<?php echo do_shortcode("[metaslider id=11]"); ?>
-	<!--/ Plugin Slider -->
+		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+		
+		<?php the_content(); ?>
+			
+		<?php endwhile; ?>
 
-	<div class="container billboard-legend">
-		<div>
-			<h1>SPANISH CLASSES</h1>
-			<p>Lorem ipsum ad sidera met non dolor manque</p>
-			<a href="#">APPLY NOW</a>
-			</div>
-		</div>
+		<?php else: ?>
 
-</section>
+			<!-- article -->
+			<article>
 
-	<div class="container">
-		<div class="col-md-12">
+				<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
 
-		</div>
+			</article>
+			<!-- /article -->
 
-		<div class="col-md-6">
-			<section class="latest-posts">
-				<?php get_template_part('loop'); ?>
-
-				<?php get_template_part('pagination'); ?>
-			</section>	
-		</div>
-
-		<div class="col-md-6">
-			<section class="main-content">
-				<?php the_content(); ?>
-			</section>
-		</div>
-	</div>
+		<?php endif; ?>
+		
 </main>			
 
 <?php get_footer(); ?>

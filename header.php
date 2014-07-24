@@ -7,6 +7,7 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
@@ -28,10 +29,9 @@
 	<body <?php body_class(); ?>>
 
 		<!-- wrapper -->
-		<div class="">
-
+		<!-- <div class="wrapper"> -->
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header clear" role="banner" id="totop">
 
 				<div class="container">
 
