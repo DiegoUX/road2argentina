@@ -8,3 +8,16 @@ $darkBlue: #01325D;
 $blue: #004e92;
 
 $aquaGreen: #14a8a6;
+
+// Buttons...
+.btn {
+	background: $aquaGreen;
+	padding: 10px 25px;
+	color: $white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+// Helpers...
+
+.tac { text-align: center !important;}

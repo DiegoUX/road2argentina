@@ -7,7 +7,7 @@ body {
 	}
 
 	h2 {
-
+		font-size: 1.75em;
 	}
 
 	h3 { 
@@ -28,4 +28,43 @@ body {
 		text-decoration: underline;
 	}
 
+}
+
+// Apply now section...
+section.apply {
+	background: url('/wp-content/themes/road2argentina-child/img/image-applynow.jpg') no-repeat scroll center center transparent;
+	// background-size: cover;
+	height: 404px;
+
+	.apply-container {
+		position: relative;
+		top: 175px;
+
+		h2 {
+			color: $white;
+			display: inline-block;
+		}
+
+		a {
+			display: inline-block;
+			margin-left: 20px;
+		}
+	}
+}
+
+// Sponsor section...
+
+section.sponsors {
+	background: $white;
+	padding: 50px 0;
+	text-align: center;
+
+	p {
+		color: $darkBlue;
+		margin-top: 20px;
+	}
+
+	.img-container {
+	    min-height: 105px;
+	}
 }

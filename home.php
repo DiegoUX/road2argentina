@@ -5,15 +5,24 @@
 		Slider
 	</section>
 
-	<section class="latest-posts">
-		<?php get_template_part('loop'); ?>
-
-		<?php get_template_part('pagination'); ?>
-	</section>	
-
-	<section class="main-content">
+	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+		
 		<?php the_content(); ?>
-	</section>
+			
+		<?php endwhile; ?>
+
+		<?php else: ?>
+
+			<!-- article -->
+			<article>
+
+				<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+
+			</article>
+			<!-- /article -->
+
+		<?php endif; ?>
+
 </main>			
 
 <?php get_footer(); ?>
