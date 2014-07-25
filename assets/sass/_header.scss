@@ -1,0 +1,69 @@
+header {
+	position: relative;
+
+	//Button header
+	.btn-t {
+		padding: 7px 17px;
+		color: $aquaGreen;
+		font-size: 14px;
+		text-transform: uppercase;
+		border: 1px solid $aquaGreen;
+	}
+
+	.btn-t:hover {
+		text-decoration: none;
+		color: $white;
+		border: 1px solid $white;
+	}
+
+	.btn-t:visited {
+		text-decoration: none;
+	}
+
+	.row {
+		position: relative;
+		padding-top: 30px;
+	}
+	
+
+	.container.top-h {
+			position: absolute;
+			z-index: 999;
+			margin-left: auto;
+			margin-right: auto;
+			left:0;
+			right:0;
+			max-width: 1170px;
+
+			.row {
+				position: absolute;
+				margin-left: auto;
+				margin-right: auto;
+				left:0;
+				right:0;
+				width:auto;
+
+				.col-sm-8 {
+					text-align: right;
+
+					p {
+						color: $white;
+					}
+
+					.nav-links {
+						padding-top: 15px;
+
+						a {
+							display: inline-block;
+							margin-left: 15px;
+						}
+					}
+
+					nav {
+						display: inline-block;
+					}
+				}
+			}
+		}
+
+}

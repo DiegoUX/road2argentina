@@ -6,6 +6,11 @@
 		<!--Plugin Slider -->
 		<?php echo do_shortcode("[metaslider id=11]"); ?>
 		<!--/ Plugin Slider -->
+		<div class="boxcontrol">
+			
+		</div>
+
+
 
 		<div class="container billboard-legend">
 			<div>

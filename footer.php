@@ -48,6 +48,8 @@
 
 		<?php wp_footer(); ?>
 
+		
+
 		<!-- analytics -->
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){

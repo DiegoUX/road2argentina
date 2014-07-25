@@ -34,31 +34,35 @@
 			<header class="header clear" role="banner" id="totop">
 
 				<div class="container top-h">
-
-					<div class="col-md-4">
-						<!-- logo -->
-						<div class="logo">
-							<a href="<?php echo home_url(); ?>">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo" class="logo-img">
-
-							</a>
-						</div>
-						<!-- /logo -->
-					</div>
-
-					<div class="col-md-8">
-
-						<p>Buenos Aires | <a href="#">Patagonia</a></p>
-
-						<!-- nav -->
-						<nav class="nav" role="navigation">
-							<?php html5blank_nav(); ?>
-						</nav>
-						<!-- /nav -->
-						<a href="#">APPLY NOW</a>
-						<a href="#"><span></span>Contact Us</a>
-					</div>
 					
+					<div class="row">
+						<div class="col-sm-4">
+							<!-- logo -->
+							<div class="logo">
+								<a href="<?php echo home_url(); ?>">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo" class="logo-img">
+
+								</a>
+							</div>
+							<!-- /logo -->
+						</div>
+
+						<div class="col-sm-8">
+
+							<p>Buenos Aires | <a href="#">Patagonia</a></p>
+
+							<div class="nav-links">
+								<!-- nav -->
+								<nav class="nav" role="navigation">
+									<?php html5blank_nav(); ?>
+								</nav>
+								<!-- /nav -->
+								<a href="#" class="btn-t">APPLY NOW</a>
+								<a href="#"><span></span>Contact Us</a>
+							</div>
+						</div>
+
+					</div>		
 				</div>
 
 			</header>

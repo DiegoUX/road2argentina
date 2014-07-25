@@ -1,0 +1,63 @@
+ul.rslides_tabs.rslides1_tabs a {
+	color: $white;
+	font-size: 14px;
+}
+
+.rslides_tabs .rslides_here a {
+		background: none !important;
+}
+
+ul.rslides_tabs {
+	padding: 0px !important;
+}
+
+.rslides_tabs {
+	padding: 0px 0px !important;
+	background: rgb(0,58,108) !important;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDNhNmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMyMDdjY2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwZjg2ODQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+) !important;
+	background: -moz-linear-gradient(left, rgba(0,58,108,1) 50%, rgba(32,124,202,1) 50%, rgba(15,134,132,1) 50%) !important;
+	background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(0,58,108,1)), color-stop(50%,rgba(32,124,202,1)), color-stop(50%,rgba(15,134,132,1))) !important;
+	background: -webkit-linear-gradient(left, rgba(0,58,108,1) 50%,rgba(32,124,202,1) 50%,rgba(15,134,132,1) 50%) !important;
+	background: -o-linear-gradient(left, rgba(0,58,108,1) 50%,rgba(32,124,202,1) 50%,rgba(15,134,132,1) 50%) !important;
+	background: -ms-linear-gradient(left, rgba(0,58,108,1) 50%,rgba(32,124,202,1) 50%,rgba(15,134,132,1) 50%) !important;
+	background: linear-gradient(to right, rgba(0,58,108,1) 50%,rgba(32,124,202,1) 50%,rgba(15,134,132,1) 50%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003a6c', endColorstr='#0f8684',GradientType=1 ) !important;
+
+	li {
+	    margin: 0px !important;
+	    display: inline-block;
+	    float: none;
+	    margin-right: 1px;
+	    list-style-type: none; 
+	    vertical-align: middle;
+	    /*padding: 23px 0px !important;*/
+	    padding: 2% 1% !important;
+	    
+	    width: 16% !important
+	}
+
+	a {
+		/*padding: 2% 5% !important;*/
+		padding: 0px !important;
+	}
+
+	li.rslides1_s1 {
+		background: #003a6c;
+	}
+
+	li.rslides1_s2 {
+		background: #0a5693;
+	}
+
+	li.rslides1_s3 {
+		background: #1372bf;
+	}
+
+	li.rslides1_s4 {
+		background: #14a8a6;
+	}
+
+	li.rslides1_s5 {
+		background: #0f8684;
+	}
+}
