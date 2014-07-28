@@ -3,22 +3,21 @@
 <main role="main">
 
 	<section class="slider">
-		<!--Plugin Slider -->
-		<?php echo do_shortcode("[metaslider id=11]"); ?>
-		<!--/ Plugin Slider -->
-		<div class="boxcontrol">
-			
-		</div>
 
-
-
-		<div class="container billboard-legend">
-			<div>
+		<!--<div class="container billboard-legend">
+			<div class="inner-box">
 				<h1>SPANISH CLASSES</h1>
 				<p>Lorem ipsum ad sidera met non dolor manque</p>
 				<a href="#" class="btn">APPLY NOW</a>
-				</div>
 			</div>
+		</div>-->
+		<!--Plugin Slider -->
+		<nav class="nav-thumbflip">
+		<?php echo do_shortcode("[metaslider id=11]"); ?>
+		</nav>
+		<!--/ Plugin Slider -->
+
+		
 	</section>
 
 	

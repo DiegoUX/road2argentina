@@ -7,7 +7,7 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
@@ -53,10 +53,20 @@
 
 							<div class="nav-links">
 								<!-- nav -->
-								<nav class="nav" role="navigation">
+								<!--<nav class="nav" role="navigation">
 									<?php html5blank_nav(); ?>
-								</nav>
+								</nav>-->
 								<!-- /nav -->
+								<nav>
+									<select class="program-opt" >
+										<option selected value="#">Program Offerings</option>
+										<option value="#">Study Abroad</option>
+										<option value="#">Internships</option>
+										<option value="#">Spanish Classes</option>
+										<option value="#">Volunteering</option>
+										<option value="#">TEFL Certification</option>
+									</select>
+								</nav>
 								<a href="#" class="btn-t">APPLY NOW</a>
 								<a href="#"><span></span>Contact Us</a>
 							</div>
