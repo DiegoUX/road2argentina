@@ -39,6 +39,14 @@ $darkAqua: #0F8684;
 .pb10 { padding-bottom: 10px !important; }
 .pb20 { padding-bottom: 20px !important; }
 .pb30 { padding-bottom: 30px !important; }
+.in-middle-box {
+    float: none !important;
+    margin: 0 auto !important;
+    overflow: auto !important;
+}
+
+.pr0{ padding-right: 0 !important;}
+.pl0{ padding-left: 0 !important;}
 
 
 /*---------------*/
@@ -46,6 +54,7 @@ $darkAqua: #0F8684;
 /*---------------*/
 figure.effect-zoe {
 	position: relative;
+	z-index: 200;
 }
 
 // figure.effect-zoe figcaption:before {
@@ -88,11 +97,11 @@ figure.effect-zoe p {
 	left: 5em;
 
 	position: absolute;
-	bottom: 8em;
+	bottom: 6em;
 	padding: 2em;
 	color: #fff;
 	text-transform: none;
-	font-size: 90%;
+	font-size: 1em;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;

@@ -27,7 +27,12 @@ body {
 		color: $aquaGreen;
 		text-decoration: underline;
 	}
-
+	section h2{
+		color: #24629d;
+		font-size: 2.2em;
+		font-weight: 100 !important;
+		margin-bottom: 20px;
+	}
 }
 
 // Section Post and Links...
@@ -109,4 +114,90 @@ section.sponsors {
 	.img-container {
 	    min-height: 105px;
 	}
+}
+
+section.posts-and-links {
+	.destacado-wra{
+		border-bottom: 2.0px solid #ddd;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+
+		&:last-child{
+			margin-bottom: 0;
+			padding-bottom: 0px;
+			border-bottom: 0px;
+		}
+
+		h3{
+			margin: 1em 0 !important;
+		}
+		h3 > a{
+			color: #444!important;
+			font-weight: 600;
+			text-decoration: none;
+
+			&:hover{
+				text-decoration: underline;
+				color: #444!important;
+			}
+		}
+
+		.author > a{
+			color: #444;
+			text-decoration: none;
+			&:hover{
+				color: #444 !important;
+				text-decoration: underline;
+			}
+		}
+
+		.contenido-post{
+			margin-top: 1em;
+		}
+
+	}
+
+	figure.effect-zoe:hover figcaption{
+		visibility: visible !important;
+	}
+
+	figure.effect-zoe:hover:after {
+		background: none repeat scroll 0 0 rgba(0, 78, 146, 0.5);
+		content: '';
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		position: absolute;
+		top: 0;
+	}
+
+	figure.effect-zoe figcaption{
+		transition: all 0.35s ease 0s !important;
+		visibility: hidden !important;
+		z-index: 100;
+
+		a {
+			color: $blue;
+			font-size: 16px;
+			font-weight: 500;
+			display: block;
+
+			span.flecha {
+				position: absolute;
+				padding-right: 1em;
+				right: 0;
+			}
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+	}
+
+	figure.effect-zoe p{
+		left: 0 !important;
+		padding: 2em 20% !important;
+		width: 100%;
+	}
+
 }

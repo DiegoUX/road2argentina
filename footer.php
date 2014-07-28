@@ -2,19 +2,19 @@
 			<footer class="footer" role="contentinfo">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-sm-2">
 							<h3>Get in touch</h3>
 							<?php dynamic_sidebar( 'widget-footer-area-1' ); ?>
 						</div>
-						<div class="col-md-2">
+						<div class="col-sm-2">
 							<h3>Useful links</h3>
 							<?php dynamic_sidebar( 'widget-footer-area-2' ); ?>
 						</div>
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<h3>About us</h3>
 							<?php dynamic_sidebar( 'widget-footer-area-3' ); ?>
 						</div>
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<h3>Where to find us</h3>
 							<?php dynamic_sidebar( 'widget-footer-area-4' ); ?>
 							<div class="contact-form">
@@ -29,14 +29,14 @@
 			<section class="sub-footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-10">
+						<div class="col-sm-10">
 							<!-- copyright -->
 							<p class="copyright">
 								Copyright &copy; <?php echo date('Y'); ?> Road2Argentina.com. All Rights Reserved.
 							</p>
 							<!-- /copyright -->	
 						</div>
-						<div class="col-md-2">
+						<div class="col-sm-2">
 							<a href="#totop" class="backto">Back to Top</a>
 						</div>
 					</div>
