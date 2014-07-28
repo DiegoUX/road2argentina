@@ -3,21 +3,171 @@ $white: #ffffff;
 
 $darkGray: #222222;
 $gray: #444444;
+$lightGray: #F0F0F0;
 
 $darkBlue: #01325D;
 $blue: #004e92;
 
 $aquaGreen: #14a8a6;
+$darkAqua: #0F8684;
 
 // Buttons...
-.btn {
-	background: $aquaGreen;
+.btn, .btn:visited {
+	background-color: $aquaGreen;
+	text-decoration: none;
 	padding: 10px 25px;
 	color: $white;
 	font-size: 20px;
 	text-transform: uppercase;
+	-webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+	background-color: $darkAqua;
+	color: $white;
+	text-decoration: none;
 }
 
 // Helpers...
 
-.tac { text-align: center !important;}
+.tac { text-align: center !important; }
+.pr5 { padding-right: 5px !important; }
+.pl5 { padding-left: 5px !important; }
+.pb10 { padding-bottom: 10px !important; }
+.pb20 { padding-bottom: 20px !important; }
+.pb30 { padding-bottom: 30px !important; }
+.in-middle-box {
+    float: none !important;
+    margin: 0 auto !important;
+    overflow: auto !important;
+}
+
+.pr0{ padding-right: 0 !important;}
+.pl0{ padding-left: 0 !important;}
+
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+figure.effect-zoe {
+	position: relative;
+	z-index: 200;
+
+	> span {
+	    display: block;
+	    position: absolute;
+	    top: 45%;
+	    color: $white;
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	    text-align: center;
+	    width: 100%;
+	}    
+}
+
+figure.effect-zoe figcaption {
+	position: absolute;
+	width: 100%;
+
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 3.75em;
+	background: #F5F5F5;
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+figure.effect-zoe h2 {
+	float: left;
+}
+
+figure.effect-zoe figcaption > span {
+	float: right;
+}
+
+figure.effect-zoe p {
+	left: 5em;
+
+	position: absolute;
+	bottom: 6em;
+	padding: 2em;
+	color: #fff;
+	text-transform: none;
+	font-size: 1em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-zoe h2,
+figure.effect-zoe figcaption > span {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+figure.effect-zoe figcaption > span::before {
+	display: inline-block;
+	padding: 8px 10px;
+	font-family: 'feathericons';
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye::before {
+	content: '\e000';
+}
+
+.icon-paper-clip::before {
+	content: '\e001';
+}
+
+.icon-heart::before {
+	content: '\e024';
+}
+
+figure.effect-zoe h2 {
+	display: inline-block;
+}
+
+figure.effect-zoe:hover p {
+	opacity: 1;
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover figcaption > span {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-zoe:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(4) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(3) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(2) {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
