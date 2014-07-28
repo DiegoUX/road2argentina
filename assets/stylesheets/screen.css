@@ -316,9 +316,12 @@ section.posts-and-links .links-blk img {
 section.video-slider {
   padding: 30px 0;
   background: #f0f0f0;
+  overflow: hidden;
+  height: 550px;
+  position: relative;
 }
 
-/* line 56, ../sass/_general.scss */
+/* line 59, ../sass/_general.scss */
 section.quote {
   background: white;
   padding: 40px 0;
@@ -326,101 +329,101 @@ section.quote {
   color: #444444;
   font-weight: 100;
 }
-/* line 64, ../sass/_general.scss */
+/* line 67, ../sass/_general.scss */
 section.quote .desc {
   margin-top: 30px;
 }
-/* line 68, ../sass/_general.scss */
+/* line 71, ../sass/_general.scss */
 section.quote .rounded-radius {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 74, ../sass/_general.scss */
+/* line 77, ../sass/_general.scss */
 section.quote blockquote {
   font-family: 'Merriweather', serif;
   margin-bottom: 10px;
 }
 
-/* line 81, ../sass/_general.scss */
+/* line 84, ../sass/_general.scss */
 section.apply {
   background: url("/wp-content/themes/road2argentina-child/img/image-applynow.jpg") no-repeat scroll center center transparent;
   height: 404px;
 }
-/* line 86, ../sass/_general.scss */
+/* line 89, ../sass/_general.scss */
 section.apply .apply-container {
   position: relative;
   top: 175px;
 }
-/* line 90, ../sass/_general.scss */
+/* line 93, ../sass/_general.scss */
 section.apply .apply-container h2 {
   color: white;
   display: inline-block;
 }
-/* line 95, ../sass/_general.scss */
+/* line 98, ../sass/_general.scss */
 section.apply .apply-container a {
   display: inline-block;
   margin-left: 20px;
 }
 
-/* line 104, ../sass/_general.scss */
+/* line 107, ../sass/_general.scss */
 section.sponsors {
   background: white;
   padding: 50px 0;
   text-align: center;
 }
-/* line 109, ../sass/_general.scss */
+/* line 112, ../sass/_general.scss */
 section.sponsors p {
   color: #01325d;
   margin-top: 20px;
 }
-/* line 114, ../sass/_general.scss */
+/* line 117, ../sass/_general.scss */
 section.sponsors .img-container {
   min-height: 105px;
 }
 
-/* line 120, ../sass/_general.scss */
+/* line 123, ../sass/_general.scss */
 section.posts-and-links .destacado-wra {
   border-bottom: 2.0px solid #ddd;
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
-/* line 125, ../sass/_general.scss */
+/* line 128, ../sass/_general.scss */
 section.posts-and-links .destacado-wra:last-child {
   margin-bottom: 0;
   padding-bottom: 0px;
   border-bottom: 0px;
 }
-/* line 131, ../sass/_general.scss */
+/* line 134, ../sass/_general.scss */
 section.posts-and-links .destacado-wra h3 {
   margin: 1em 0 !important;
 }
-/* line 134, ../sass/_general.scss */
+/* line 137, ../sass/_general.scss */
 section.posts-and-links .destacado-wra h3 > a {
   color: #444444 !important;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 139, ../sass/_general.scss */
+/* line 142, ../sass/_general.scss */
 section.posts-and-links .destacado-wra h3 > a:hover {
   text-decoration: underline;
   color: #444444 !important;
 }
-/* line 145, ../sass/_general.scss */
+/* line 148, ../sass/_general.scss */
 section.posts-and-links .destacado-wra .author > a {
   color: #444;
   text-decoration: none;
 }
-/* line 148, ../sass/_general.scss */
+/* line 151, ../sass/_general.scss */
 section.posts-and-links .destacado-wra .author > a:hover {
   color: #444 !important;
   text-decoration: underline;
 }
-/* line 154, ../sass/_general.scss */
+/* line 157, ../sass/_general.scss */
 section.posts-and-links .destacado-wra .contenido-post {
   margin-top: 1em;
 }
-/* line 161, ../sass/_general.scss */
+/* line 164, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover > span {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
@@ -428,11 +431,11 @@ section.posts-and-links figure.effect-zoe:hover > span {
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 169, ../sass/_general.scss */
+/* line 172, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover figcaption {
   visibility: visible !important;
 }
-/* line 174, ../sass/_general.scss */
+/* line 177, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover:after {
   background: none repeat scroll 0 0 rgba(0, 78, 146, 0.5);
   content: '';
@@ -442,34 +445,71 @@ section.posts-and-links figure.effect-zoe:hover:after {
   position: absolute;
   top: 0;
 }
-/* line 184, ../sass/_general.scss */
+/* line 187, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption {
   transition: all 0.35s ease 0s !important;
   visibility: hidden !important;
   z-index: 100;
 }
-/* line 189, ../sass/_general.scss */
+/* line 192, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a {
   color: #004e92;
   font-size: 16px;
   font-weight: 500;
   display: block;
+  text-transform: uppercase;
 }
-/* line 195, ../sass/_general.scss */
+/* line 199, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a span.flecha {
   position: absolute;
   padding-right: 1em;
   right: 0;
 }
-/* line 202, ../sass/_general.scss */
+/* line 206, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a:hover {
   text-decoration: none;
 }
-/* line 207, ../sass/_general.scss */
+/* line 211, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe p {
   left: 0 !important;
   padding: 2em 20% !important;
   width: 100%;
+}
+
+/* line 221, ../sass/_general.scss */
+.center-video {
+  margin: 0 auto;
+  width: 700px;
+}
+
+/* line 227, ../sass/_general.scss */
+.left-video, .right-video {
+  width: 700px;
+  position: absolute;
+}
+
+/* line 232, ../sass/_general.scss */
+.center-video {
+  position: absolute;
+  margin-left: -350px;
+  left: 50%;
+}
+
+/* line 238, ../sass/_general.scss */
+.left-video {
+  margin-left: -1180px;
+  left: 50%;
+}
+
+/* line 243, ../sass/_general.scss */
+.right-video {
+  margin-right: -1180px;
+  right: 50%;
+}
+
+/* line 248, ../sass/_general.scss */
+.bx-wrapper img {
+  margin: 0 auto;
 }
 
 /* line 1, ../sass/_footer.scss */

@@ -18,7 +18,32 @@
 
 	<section class="video-slider">
 		<h2>What is it like to be in Buenos Aires with us?</h2>
-		<?php echo do_shortcode('[gallery ids="35,34,33,32"]'); ?>
+		<!-- <?php echo do_shortcode('[gallery ids="35,34,33,32"]'); ?> -->
+
+		<div class="left-video">
+			<ul class="bxslider">
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" /></li>
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
+		
+		
+			</ul>
+		</div>
+		<div class="center-video">
+			<ul class="bxslider">
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" /></li>
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>
+			</ul>
+		</div>
+		<div class="right-video">
+			<ul class="bxslider">
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
+			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>
+				
+			</ul>
+		</div>
+
 	</section>
 
 	<section class="posts-and-links">

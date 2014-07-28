@@ -50,6 +50,9 @@ section.posts-and-links {
 section.video-slider {
 	padding: 30px 0;
 	background: $lightGray;
+	overflow: hidden;
+	height: 550px;
+	position: relative;
 }
 
 // Section quote...
@@ -191,6 +194,7 @@ section.posts-and-links {
 			font-size: 16px;
 			font-weight: 500;
 			display: block;
+			text-transform: uppercase;
 
 			span.flecha {
 				position: absolute;
@@ -210,4 +214,37 @@ section.posts-and-links {
 		width: 100%;
 	}
 
+}
+
+// Slider de videos...
+
+.center-video {
+    margin: 0 auto;
+    width: 700px;
+    // float: left;
+}
+
+.left-video, .right-video {
+	width: 700px;
+	position: absolute;
+}
+
+.center-video {
+	position: absolute;
+	margin-left: -350px;
+	left: 50%;
+}
+
+.left-video {
+	margin-left: -1180px;
+	left: 50%;
+}
+
+.right-video {
+	margin-right: -1180px;
+	right: 50%;
+}
+
+.bx-wrapper img {
+	margin: 0 auto;
 }

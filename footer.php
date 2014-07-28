@@ -48,6 +48,21 @@
 
 		<?php wp_footer(); ?>
 
+		<!-- bxSlider CSS file -->
+		<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/jquery.bxslider.css" rel="stylesheet" />
+
+		<!-- jQuery library (served from Google) -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<!-- bxSlider Javascript file -->
+		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
+		
+
+		<script>
+			$(document).ready(function(){
+			  $('.bxslider').bxSlider();
+			});
+		</script>
+
 		<!-- analytics -->
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
