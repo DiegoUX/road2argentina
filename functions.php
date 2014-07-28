@@ -15,6 +15,12 @@
 	Theme Support
 \*------------------------------------*/
 
+// function html5_blank_view_article($more)
+// {
+//     global $post;
+//     return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('read more', 'html5blank') . '</a>';
+// }
+
 // If Dynamic Sidebar Exists
 if (function_exists('register_sidebar'))
 {

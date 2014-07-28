@@ -1,0 +1,14 @@
+@media only screen and (max-width:767px){
+
+}
+
+@media only screen and (min-width:768px){
+	// Helpers for large
+
+	.pr0-for-large{ padding-right: 0 !important;}
+	.pl0-for-large{ padding-left: 0 !important;}
+
+	.col-sm-6.pl0-for-large .row {
+	    margin-left: 0;
+	}
+}
