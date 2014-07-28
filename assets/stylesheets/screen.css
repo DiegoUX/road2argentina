@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 15, ../sass/_variables.scss */
+/* line 17, ../sass/_variables.scss */
 .btn, .btn:visited {
   background-color: #14a8a6;
   text-decoration: none;
@@ -81,56 +81,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   transition: background-color 0.5s ease;
 }
 
-/* line 28, ../sass/_variables.scss */
+/* line 30, ../sass/_variables.scss */
 .btn:hover {
   background-color: #0f8684;
   color: white;
   text-decoration: none;
 }
 
-/* line 36, ../sass/_variables.scss */
+/* line 38, ../sass/_variables.scss */
 .tac {
   text-align: center !important;
 }
 
-/* line 37, ../sass/_variables.scss */
+/* line 39, ../sass/_variables.scss */
 .pr5 {
   padding-right: 5px !important;
 }
 
-/* line 38, ../sass/_variables.scss */
+/* line 40, ../sass/_variables.scss */
 .pl5 {
   padding-left: 5px !important;
 }
 
-/* line 39, ../sass/_variables.scss */
+/* line 41, ../sass/_variables.scss */
 .pb10 {
   padding-bottom: 10px !important;
 }
 
-/* line 40, ../sass/_variables.scss */
+/* line 42, ../sass/_variables.scss */
 .pb20 {
   padding-bottom: 20px !important;
 }
 
-/* line 41, ../sass/_variables.scss */
+/* line 43, ../sass/_variables.scss */
 .pb30 {
   padding-bottom: 30px !important;
 }
 
-/* line 42, ../sass/_variables.scss */
+/* line 44, ../sass/_variables.scss */
 .in-middle-box {
   float: none !important;
   margin: 0 auto !important;
   overflow: auto !important;
 }
 
-/* line 48, ../sass/_variables.scss */
+/* line 50, ../sass/_variables.scss */
 .pr0 {
   padding-right: 0 !important;
 }
 
-/* line 49, ../sass/_variables.scss */
+/* line 51, ../sass/_variables.scss */
 .pl0 {
   padding-left: 0 !important;
 }
@@ -138,12 +138,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*---------------*/
 /***** Zoe *****/
 /*---------------*/
-/* line 55, ../sass/_variables.scss */
+/* line 57, ../sass/_variables.scss */
 figure.effect-zoe {
   position: relative;
   z-index: 200;
 }
-/* line 59, ../sass/_variables.scss */
+/* line 61, ../sass/_variables.scss */
 figure.effect-zoe > span {
   display: block;
   position: absolute;
@@ -156,7 +156,7 @@ figure.effect-zoe > span {
   width: 100%;
 }
 
-/* line 72, ../sass/_variables.scss */
+/* line 74, ../sass/_variables.scss */
 figure.effect-zoe figcaption {
   position: absolute;
   width: 100%;
@@ -172,17 +172,17 @@ figure.effect-zoe figcaption {
   transform: translate3d(0, 100%, 0);
 }
 
-/* line 88, ../sass/_variables.scss */
+/* line 90, ../sass/_variables.scss */
 figure.effect-zoe h2 {
   float: left;
 }
 
-/* line 92, ../sass/_variables.scss */
+/* line 94, ../sass/_variables.scss */
 figure.effect-zoe figcaption > span {
   float: right;
 }
 
-/* line 96, ../sass/_variables.scss */
+/* line 98, ../sass/_variables.scss */
 figure.effect-zoe p {
   left: 5em;
   position: absolute;
@@ -196,7 +196,7 @@ figure.effect-zoe p {
   transition: opacity 0.35s;
 }
 
-/* line 111, ../sass/_variables.scss */
+/* line 113, ../sass/_variables.scss */
 figure.effect-zoe h2,
 figure.effect-zoe figcaption > span {
   -webkit-transition: -webkit-transform 0.35s;
@@ -205,7 +205,7 @@ figure.effect-zoe figcaption > span {
   transform: translate3d(0, 200%, 0);
 }
 
-/* line 118, ../sass/_variables.scss */
+/* line 120, ../sass/_variables.scss */
 figure.effect-zoe figcaption > span::before {
   display: inline-block;
   padding: 8px 10px;
@@ -215,32 +215,32 @@ figure.effect-zoe figcaption > span::before {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 127, ../sass/_variables.scss */
+/* line 129, ../sass/_variables.scss */
 .icon-eye::before {
   content: '\e000';
 }
 
-/* line 131, ../sass/_variables.scss */
+/* line 133, ../sass/_variables.scss */
 .icon-paper-clip::before {
   content: '\e001';
 }
 
-/* line 135, ../sass/_variables.scss */
+/* line 137, ../sass/_variables.scss */
 .icon-heart::before {
   content: '\e024';
 }
 
-/* line 139, ../sass/_variables.scss */
+/* line 141, ../sass/_variables.scss */
 figure.effect-zoe h2 {
   display: inline-block;
 }
 
-/* line 143, ../sass/_variables.scss */
+/* line 145, ../sass/_variables.scss */
 figure.effect-zoe:hover p {
   opacity: 1;
 }
 
-/* line 149, ../sass/_variables.scss */
+/* line 151, ../sass/_variables.scss */
 figure.effect-zoe:hover figcaption,
 figure.effect-zoe:hover h2,
 figure.effect-zoe:hover figcaption > span {
@@ -248,28 +248,107 @@ figure.effect-zoe:hover figcaption > span {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 154, ../sass/_variables.scss */
+/* line 156, ../sass/_variables.scss */
 figure.effect-zoe:hover h2 {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
 }
 
-/* line 159, ../sass/_variables.scss */
+/* line 161, ../sass/_variables.scss */
 figure.effect-zoe:hover figcaption > span:nth-child(4) {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 164, ../sass/_variables.scss */
+/* line 166, ../sass/_variables.scss */
 figure.effect-zoe:hover figcaption > span:nth-child(3) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-/* line 169, ../sass/_variables.scss */
+/* line 171, ../sass/_variables.scss */
 figure.effect-zoe:hover figcaption > span:nth-child(2) {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  position: relative;
+}
+/* line 5, ../sass/_header.scss */
+header .btn-t {
+  padding: 7px 17px;
+  color: #14a8a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #14a8a6;
+}
+/* line 13, ../sass/_header.scss */
+header .btn-t:hover {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+}
+/* line 19, ../sass/_header.scss */
+header .btn-t:visited {
+  text-decoration: none;
+}
+/* line 23, ../sass/_header.scss */
+header .row {
+  position: relative;
+  padding-top: 30px;
+}
+/* line 29, ../sass/_header.scss */
+header .container.top-h {
+  position: absolute;
+  z-index: 999;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-width: 1170px;
+}
+/* line 38, ../sass/_header.scss */
+header .container.top-h .row {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+/* line 46, ../sass/_header.scss */
+header .container.top-h .row .program-opt {
+  background: white;
+  border: none;
+  font-size: 14px;
+  padding: 6px;
+  padding-right: 8px;
+  border-bottom: 0px;
+  color: #999999;
+  box-shadow: none;
+}
+/* line 58, ../sass/_header.scss */
+header .container.top-h .row .col-sm-8 {
+  text-align: right;
+}
+/* line 61, ../sass/_header.scss */
+header .container.top-h .row .col-sm-8 p {
+  color: white;
+}
+/* line 65, ../sass/_header.scss */
+header .container.top-h .row .col-sm-8 .nav-links {
+  padding-top: 15px;
+}
+/* line 68, ../sass/_header.scss */
+header .container.top-h .row .col-sm-8 .nav-links a {
+  display: inline-block;
+  margin-left: 15px;
+}
+/* line 74, ../sass/_header.scss */
+header .container.top-h .row .col-sm-8 nav {
+  display: inline-block;
 }
 
 /* line 1, ../sass/_general.scss */
@@ -573,6 +652,253 @@ section.sub-footer {
   background: #01325d;
   color: white;
   padding: 15px 0;
+}
+
+/* line 1, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs a {
+  color: white;
+  font-size: 14px;
+}
+
+/* line 6, ../sass/_billboard.scss */
+.rslides_tabs .rslides_here a {
+  background: none !important;
+}
+
+/* line 10, ../sass/_billboard.scss */
+ul.rslides_tabs {
+  padding: 0px !important;
+}
+
+/* line 14, ../sass/_billboard.scss */
+.rslides_tabs {
+  padding: 0px 0px !important;
+  background: #003a6c !important;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDNhNmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMyMDdjY2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwZjg2ODQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+) !important;
+  background: -moz-linear-gradient(left, #003a6c 50%, #207cca 50%, #0f8684 50%) !important;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #003a6c), color-stop(50%, #207cca), color-stop(50%, #0f8684)) !important;
+  background: -webkit-linear-gradient(left, #003a6c 50%, #207cca 50%, #0f8684 50%) !important;
+  background: -o-linear-gradient(left, #003a6c 50%, #207cca 50%, #0f8684 50%) !important;
+  background: -ms-linear-gradient(left, #003a6c 50%, #207cca 50%, #0f8684 50%) !important;
+  background: linear-gradient(to right, #003a6c 50%, #207cca 50%, #0f8684 50%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003a6c', endColorstr='#0f8684',GradientType=1 ) !important;
+}
+/* line 26, ../sass/_billboard.scss */
+.rslides_tabs li {
+  margin: 0px !important;
+  display: inline-block;
+  float: none;
+  margin-right: 1px;
+  list-style-type: none;
+  vertical-align: middle;
+  /*padding: 23px 0px !important;*/
+  padding: 2% 1% !important;
+  width: 16% !important;
+}
+/* line 39, ../sass/_billboard.scss */
+.rslides_tabs a {
+  /*padding: 2% 5% !important;*/
+  padding: 0px !important;
+}
+/* line 44, ../sass/_billboard.scss */
+.rslides_tabs li.rslides1_s1 {
+  background: #003a6c;
+}
+/* line 48, ../sass/_billboard.scss */
+.rslides_tabs li.rslides1_s2 {
+  background: #0a5693;
+}
+/* line 52, ../sass/_billboard.scss */
+.rslides_tabs li.rslides1_s3 {
+  background: #1372bf;
+}
+/* line 56, ../sass/_billboard.scss */
+.rslides_tabs li.rslides1_s4 {
+  background: #14a8a6;
+}
+/* line 60, ../sass/_billboard.scss */
+.rslides_tabs li.rslides1_s5 {
+  background: #0f8684;
+}
+/* line 64, ../sass/_billboard.scss */
+.rslides_tabs .rslides_here a:after {
+  border-color: red !important;
+  border-width: 0 15px 15px !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: 50px !important;
+  top: -15px !important;
+  display: block !important;
+}
+
+/* line 75, ../sass/_billboard.scss */
+.rslides_here a:after {
+  border-color: red !important;
+  border-width: 0 15px 15px !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: 50px !important;
+  top: -15px !important;
+}
+
+/* line 84, ../sass/_billboard.scss */
+.container.billboard-legend {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-width: 1170px;
+  text-align: center;
+  top: 8%;
+  z-index: 99;
+}
+/* line 95, ../sass/_billboard.scss */
+.container.billboard-legend .inner-box {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: auto;
+  padding-top: 10%;
+}
+/* line 104, ../sass/_billboard.scss */
+.container.billboard-legend .inner-box h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+  margin: 0px;
+  line-height: 1.0em;
+}
+/* line 112, ../sass/_billboard.scss */
+.container.billboard-legend .inner-box p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 25px;
+}
+/* line 119, ../sass/_billboard.scss */
+.container.billboard-legend .inner-box a {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* line 128, ../sass/_billboard.scss */
+.metaslider .caption-wrap {
+  background: none !important;
+  text-align: center;
+  opacity: 1 !important;
+  bottom: 21% !important;
+}
+/* line 134, ../sass/_billboard.scss */
+.metaslider .caption-wrap h1 {
+  font-size: 60px;
+  color: white !important;
+  font-weight: 700;
+  margin: 0px;
+  line-height: 1.0em;
+}
+/* line 142, ../sass/_billboard.scss */
+.metaslider .caption-wrap p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+/* line 149, ../sass/_billboard.scss */
+.metaslider .caption-wrap a {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*--------------------*/
+/* Thumb flip */
+/*--------------------*/
+/* line 161, ../sass/_billboard.scss */
+.color-7 {
+  background-color: #c1b8ab;
+}
+
+/*.nav-thumbflip a {
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}*/
+/* line 168, ../sass/_billboard.scss */
+.nav-thumbflip a.prev {
+  -webkit-perspective-origin: 100% 50%;
+  perspective-origin: 100% 50%;
+}
+
+/* line 173, ../sass/_billboard.scss */
+.nav-thumbflip a.next {
+  -webkit-perspective-origin: 0% 50%;
+  perspective-origin: 0% 50%;
+}
+
+/* line 178, ../sass/_billboard.scss */
+.nav-thumbflip .icon-wrap {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #b1a798;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+/* line 187, ../sass/_billboard.scss */
+.nav-thumbflip svg.icon {
+  position: relative;
+  top: 50%;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  fill: #fff;
+}
+
+/* line 197, ../sass/_billboard.scss */
+.nav-thumbflip img {
+  top: 0;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 205, ../sass/_billboard.scss */
+.nav-thumbflip a.prev img {
+  left: 100%;
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  -webkit-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+
+/* line 213, ../sass/_billboard.scss */
+.nav-thumbflip a.next img {
+  right: 100%;
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+
+/* line 221, ../sass/_billboard.scss */
+.nav-thumbflip a:hover .icon-wrap {
+  background-color: #fff;
+}
+
+/* line 225, ../sass/_billboard.scss */
+.nav-thumbflip a:hover svg.icon {
+  fill: #c1b8ab;
+}
+
+/* line 229, ../sass/_billboard.scss */
+.nav-thumbflip a:hover img {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 @media only screen and (min-width: 768px) {

@@ -6,14 +6,6 @@
 		<!--Plugin Slider -->
 		<?php echo do_shortcode("[metaslider id=11]"); ?>
 		<!--/ Plugin Slider -->
-
-		<div class="container billboard-legend">
-			<div>
-				<h1>SPANISH CLASSES</h1>
-				<p>Lorem ipsum ad sidera met non dolor manque</p>
-				<a href="#" class="btn">APPLY NOW</a>
-			</div>
-		</div>
 	</section>
 
 	<section class="video-slider">
