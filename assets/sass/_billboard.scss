@@ -61,25 +61,6 @@ ul.rslides_tabs {
 	li.rslides1_s5 {
 		background: #0f8684;
 	}
-
-	.rslides_here a:after {
-		border-color: red !important;
-	    border-width: 0 15px 15px !important;
-	    bottom: auto !important;
-	    left: auto !important;
-	    right: 50px !important;
-	    top: -15px !important;
-	    display: block !important;
-	}
-}
-
-.rslides_here a:after {
-	border-color: red !important;
-    border-width: 0 15px 15px !important;
-    bottom: auto !important;
-    left: auto !important;
-    right: 50px !important;
-    top: -15px !important;
 }
 
 .container.billboard-legend {
@@ -230,5 +211,77 @@ ul.rslides_tabs {
 .nav-thumbflip a:hover img {
 	-webkit-transform: rotateY(0deg);
 	transform: rotateY(0deg);
+}
+
+//Tabs bottom
+ul.rslides_tabs.rslides1_tabs .rslides_here a {
+	position: relative;
+}
+
+ul.rslides_tabs.rslides1_tabs .rslides1_s1.rslides_here a:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 15px 15px;
+	border-color: #003A6C transparent;
+	display: block;
+	width: 0;
+	z-index: 99;
+	// top: -200%;
+	top: -14%;
+	// left: 40px;
+	left: 100px;
+}
+
+ul.rslides_tabs.rslides1_tabs .rslides1_s2.rslides_here a:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 15px 15px;
+	border-color: #0A5693 transparent;
+	display: block;
+	width: 0;
+	z-index: 99;
+	top: -14%;
+	left: 43%;
+}
+
+ul.rslides_tabs.rslides1_tabs .rslides1_s3.rslides_here a:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 15px 15px;
+	border-color: #1372BF transparent;
+	display: block;
+	width: 0;
+	z-index: 99;
+	top: -14%;
+	left: 42%;
+}
+
+ul.rslides_tabs.rslides1_tabs .rslides1_s4.rslides_here a:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 15px 15px;
+	border-color: #14A8A6 transparent;
+	display: block;
+	width: 0;
+	z-index: 99;
+	top: -14%;
+	left: 42%;
+}
+
+ul.rslides_tabs.rslides1_tabs .rslides1_s5.rslides_here a:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 15px 15px;
+	border-color: #0F8684 transparent;
+	display: block;
+	width: 0;
+	z-index: 99;
+	top: -14%;
+	left: 42%;
 }
 

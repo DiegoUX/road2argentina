@@ -554,7 +554,7 @@ section.video-slider {
   padding: 30px 0;
   background: #f0f0f0;
   overflow: hidden;
-  height: 550px;
+  height: 570px;
   position: relative;
 }
 
@@ -713,44 +713,92 @@ section.posts-and-links figure.effect-zoe p {
   width: 100%;
 }
 
-/* line 222, ../sass/_general.scss */
+/* line 221, ../sass/_general.scss */
+.bx-wrapper .bx-controls-direction a {
+  text-indent: 0 !important;
+}
+
+/* line 225, ../sass/_general.scss */
+.bx-next, .bx-prev, .bx-prev:visited, .bx-next:visited {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 232, ../sass/_general.scss */
+.bx-next:hover,
+.bx-prev:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+/* line 238, ../sass/_general.scss */
 section.video-slider h2 {
   text-align: center;
   padding: 20px 0;
 }
 
-/* line 228, ../sass/_general.scss */
+/* line 244, ../sass/_general.scss */
 .center-video {
   margin: 0 auto;
-  width: 700px;
+  width: 620px;
+}
+/* line 247, ../sass/_general.scss */
+.center-video .bx-wrapper .bx-viewport {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+/* line 253, ../sass/_general.scss */
+.center-video .bx-wrapper .bx-pager {
+  bottom: -42px;
+}
+/* line 257, ../sass/_general.scss */
+.center-video .bx-wrapper .bx-pager.bx-default-pager a, .center-video .bx-wrapper .bx-pager.bx-default-pager a:hover {
+  cursor: default !important;
+  background: #D7D7D7 !important;
+}
+/* line 262, ../sass/_general.scss */
+.center-video .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #14a8a6 !important;
 }
 
-/* line 234, ../sass/_general.scss */
+/* line 267, ../sass/_general.scss */
 .left-video, .right-video {
-  width: 700px;
+  width: 620px;
   position: absolute;
 }
+/* line 271, ../sass/_general.scss */
+.left-video .bx-controls-direction, .left-video .bx-wrapper .bx-pager, .right-video .bx-controls-direction, .right-video .bx-wrapper .bx-pager {
+  display: none;
+}
+/* line 275, ../sass/_general.scss */
+.left-video .bx-wrapper .bx-viewport, .right-video .bx-wrapper .bx-viewport {
+  background: transparent;
+  border: 2px solid #14a8a6;
+  box-shadow: none;
+}
 
-/* line 239, ../sass/_general.scss */
+/* line 282, ../sass/_general.scss */
 .center-video {
   position: absolute;
-  margin-left: -350px;
+  margin-left: -310px;
   left: 50%;
 }
 
-/* line 245, ../sass/_general.scss */
+/* line 288, ../sass/_general.scss */
 .left-video {
-  margin-left: -1180px;
+  margin-left: -980px;
   left: 50%;
 }
 
-/* line 250, ../sass/_general.scss */
+/* line 293, ../sass/_general.scss */
 .right-video {
-  margin-right: -1180px;
+  margin-right: -980px;
   right: 50%;
 }
 
-/* line 255, ../sass/_general.scss */
+/* line 298, ../sass/_general.scss */
 .bx-wrapper img {
   margin: 0 auto;
 }
@@ -897,28 +945,8 @@ ul.rslides_tabs {
 .rslides_tabs li.rslides1_s5 {
   background: #0f8684;
 }
-/* line 65, ../sass/_billboard.scss */
-.rslides_tabs .rslides_here a:after {
-  border-color: red !important;
-  border-width: 0 15px 15px !important;
-  bottom: auto !important;
-  left: auto !important;
-  right: 50px !important;
-  top: -15px !important;
-  display: block !important;
-}
 
-/* line 76, ../sass/_billboard.scss */
-.rslides_here a:after {
-  border-color: red !important;
-  border-width: 0 15px 15px !important;
-  bottom: auto !important;
-  left: auto !important;
-  right: 50px !important;
-  top: -15px !important;
-}
-
-/* line 85, ../sass/_billboard.scss */
+/* line 66, ../sass/_billboard.scss */
 .container.billboard-legend {
   position: absolute;
   margin-left: auto;
@@ -930,7 +958,7 @@ ul.rslides_tabs {
   top: 8%;
   z-index: 99;
 }
-/* line 96, ../sass/_billboard.scss */
+/* line 77, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box {
   position: absolute;
   margin-left: auto;
@@ -940,7 +968,7 @@ ul.rslides_tabs {
   width: auto;
   padding-top: 10%;
 }
-/* line 105, ../sass/_billboard.scss */
+/* line 86, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box h1 {
   font-size: 60px;
   color: white;
@@ -948,27 +976,27 @@ ul.rslides_tabs {
   margin: 0px;
   line-height: 1.0em;
 }
-/* line 113, ../sass/_billboard.scss */
+/* line 94, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box p {
   font-size: 24px;
   color: white;
   margin-bottom: 25px;
 }
-/* line 120, ../sass/_billboard.scss */
+/* line 101, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box a {
   color: white;
   font-weight: 600;
   font-size: 16px;
 }
 
-/* line 129, ../sass/_billboard.scss */
+/* line 110, ../sass/_billboard.scss */
 .metaslider .caption-wrap {
   background: none !important;
   text-align: center;
   opacity: 1 !important;
   bottom: 21% !important;
 }
-/* line 135, ../sass/_billboard.scss */
+/* line 116, ../sass/_billboard.scss */
 .metaslider .caption-wrap h1 {
   font-size: 60px;
   color: white !important;
@@ -976,14 +1004,14 @@ ul.rslides_tabs {
   margin: 0px;
   line-height: 1.0em;
 }
-/* line 143, ../sass/_billboard.scss */
+/* line 124, ../sass/_billboard.scss */
 .metaslider .caption-wrap p {
   font-size: 24px;
   color: white;
   margin-bottom: 25px;
   margin-top: 10px;
 }
-/* line 150, ../sass/_billboard.scss */
+/* line 131, ../sass/_billboard.scss */
 .metaslider .caption-wrap a {
   color: white;
   font-weight: 600;
@@ -993,7 +1021,7 @@ ul.rslides_tabs {
 /*--------------------*/
 /* Thumb flip */
 /*--------------------*/
-/* line 162, ../sass/_billboard.scss */
+/* line 143, ../sass/_billboard.scss */
 .color-7 {
   background-color: #c1b8ab;
 }
@@ -1002,19 +1030,19 @@ ul.rslides_tabs {
 	-webkit-perspective: 1000px;
 	perspective: 1000px;
 }*/
-/* line 169, ../sass/_billboard.scss */
+/* line 150, ../sass/_billboard.scss */
 .nav-thumbflip a.prev {
   -webkit-perspective-origin: 100% 50%;
   perspective-origin: 100% 50%;
 }
 
-/* line 174, ../sass/_billboard.scss */
+/* line 155, ../sass/_billboard.scss */
 .nav-thumbflip a.next {
   -webkit-perspective-origin: 0% 50%;
   perspective-origin: 0% 50%;
 }
 
-/* line 179, ../sass/_billboard.scss */
+/* line 160, ../sass/_billboard.scss */
 .nav-thumbflip .icon-wrap {
   display: block;
   width: 100px;
@@ -1024,7 +1052,7 @@ ul.rslides_tabs {
   transition: background-color 0.3s;
 }
 
-/* line 188, ../sass/_billboard.scss */
+/* line 169, ../sass/_billboard.scss */
 .nav-thumbflip svg.icon {
   position: relative;
   top: 50%;
@@ -1035,7 +1063,7 @@ ul.rslides_tabs {
   fill: #fff;
 }
 
-/* line 198, ../sass/_billboard.scss */
+/* line 179, ../sass/_billboard.scss */
 .nav-thumbflip img {
   top: 0;
   -webkit-transition: -webkit-transform 0.3s;
@@ -1044,7 +1072,7 @@ ul.rslides_tabs {
   backface-visibility: hidden;
 }
 
-/* line 206, ../sass/_billboard.scss */
+/* line 187, ../sass/_billboard.scss */
 .nav-thumbflip a.prev img {
   left: 100%;
   -webkit-transform: rotateY(90deg);
@@ -1053,7 +1081,7 @@ ul.rslides_tabs {
   transform-origin: 0% 50%;
 }
 
-/* line 214, ../sass/_billboard.scss */
+/* line 195, ../sass/_billboard.scss */
 .nav-thumbflip a.next img {
   right: 100%;
   -webkit-transform: rotateY(-90deg);
@@ -1062,20 +1090,95 @@ ul.rslides_tabs {
   transform-origin: 100% 50%;
 }
 
-/* line 222, ../sass/_billboard.scss */
+/* line 203, ../sass/_billboard.scss */
 .nav-thumbflip a:hover .icon-wrap {
   background-color: #fff;
 }
 
-/* line 226, ../sass/_billboard.scss */
+/* line 207, ../sass/_billboard.scss */
 .nav-thumbflip a:hover svg.icon {
   fill: #c1b8ab;
 }
 
-/* line 230, ../sass/_billboard.scss */
+/* line 211, ../sass/_billboard.scss */
 .nav-thumbflip a:hover img {
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
+}
+
+/* line 217, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides_here a {
+  position: relative;
+}
+
+/* line 221, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s1.rslides_here a:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #003A6C transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -14%;
+  left: 100px;
+}
+
+/* line 236, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s2.rslides_here a:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #0A5693 transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -14%;
+  left: 43%;
+}
+
+/* line 249, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s3.rslides_here a:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #1372BF transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -14%;
+  left: 42%;
+}
+
+/* line 262, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s4.rslides_here a:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #14A8A6 transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -14%;
+  left: 42%;
+}
+
+/* line 275, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s5.rslides_here a:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #0F8684 transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -14%;
+  left: 42%;
 }
 
 @media only screen and (min-width: 768px) {
