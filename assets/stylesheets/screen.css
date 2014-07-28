@@ -143,6 +143,18 @@ figure.effect-zoe {
   position: relative;
   z-index: 200;
 }
+/* line 59, ../sass/_variables.scss */
+figure.effect-zoe > span {
+  display: block;
+  position: absolute;
+  top: 45%;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
 
 /* line 72, ../sass/_variables.scss */
 figure.effect-zoe figcaption {
@@ -408,11 +420,19 @@ section.posts-and-links .destacado-wra .author > a:hover {
 section.posts-and-links .destacado-wra .contenido-post {
   margin-top: 1em;
 }
-/* line 160, ../sass/_general.scss */
+/* line 161, ../sass/_general.scss */
+section.posts-and-links figure.effect-zoe:hover > span {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+/* line 169, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover figcaption {
   visibility: visible !important;
 }
-/* line 164, ../sass/_general.scss */
+/* line 174, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover:after {
   background: none repeat scroll 0 0 rgba(0, 78, 146, 0.5);
   content: '';
@@ -422,30 +442,30 @@ section.posts-and-links figure.effect-zoe:hover:after {
   position: absolute;
   top: 0;
 }
-/* line 174, ../sass/_general.scss */
+/* line 184, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption {
   transition: all 0.35s ease 0s !important;
   visibility: hidden !important;
   z-index: 100;
 }
-/* line 179, ../sass/_general.scss */
+/* line 189, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a {
   color: #004e92;
   font-size: 16px;
   font-weight: 500;
   display: block;
 }
-/* line 185, ../sass/_general.scss */
+/* line 195, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a span.flecha {
   position: absolute;
   padding-right: 1em;
   right: 0;
 }
-/* line 192, ../sass/_general.scss */
+/* line 202, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a:hover {
   text-decoration: none;
 }
-/* line 197, ../sass/_general.scss */
+/* line 207, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe p {
   left: 0 !important;
   padding: 2em 20% !important;
@@ -496,9 +516,19 @@ footer .wpcf7-form input[type="submit"] {
   padding: 10px 30px;
   text-transform: uppercase;
   margin-top: 10px;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+/* line 58, ../sass/_footer.scss */
+footer .wpcf7-form input[type="submit"]:hover {
+  background-color: #0f8684;
+  color: white;
+  text-decoration: none;
 }
 
-/* line 57, ../sass/_footer.scss */
+/* line 67, ../sass/_footer.scss */
 section.sub-footer {
   background: #01325d;
   color: white;

@@ -63,7 +63,7 @@
 						<div class="col-sm-12">
 							<!-- <a href="#"><img src="wp-content/themes/road2argentina-child/img/brochure.png" alt="Brochure"></a> -->
 							<figure class="effect-zoe">
-								<!-- <img src="img/14.jpg" alt="img14"/> -->
+								<span>Request a Brochure</span>
 								<img src="wp-content/themes/road2argentina-child/img/brochure.png" alt="Brochure">
 								<figcaption>
 									<p>Lorem ipsum dolor sit amet consectetur adipiscing proin gravida</p>
@@ -75,20 +75,22 @@
 					<div class="row pb10">
 						<div class="col-sm-4 pr5">	
 							<figure class="effect-zoe">
+								<span>Road Trip</span>
 								<img src="wp-content/themes/road2argentina-child/img/roadtrip.png" alt="Roadtrip">
 								<figcaption>
 									<p>Lorem ipsum dolor sit amet consectetur adipiscing proin gravida</p>
-									<a href="#">Request a Brochure <span class="flecha">&raquo;</span></a>
+									<a href="#">Road Trip <span class="flecha">&raquo;</span></a>
 								</figcaption>			
 							</figure>
 						</div>
 						<div class="col-sm-8 pl5">
 							<figure class="effect-zoe">
 								<a href="#"><img src="http://placehold.it/320x202" alt=""></a>
+								<span>Housing</span>
 								<!-- <a href="#"><img src="wp-content/themes/road2argentina-child/img/roadtrip.png" alt="Roadtrip"></a> -->
 								<figcaption>
 									<p>Lorem ipsum dolor sit amet consectetur adipiscing proin gravida</p>
-									<a href="#">Request a Brochure <span class="flecha">&raquo;</span></a>
+									<a href="#">Housing <span class="flecha">&raquo;</span></a>
 								</figcaption>			
 							</figure>
 						</div>
@@ -96,10 +98,11 @@
 					<div class="row pb10">
 						<div class="col-sm-12">
 							<figure class="effect-zoe">
+								<span>For Parents</span>
 								<a href="#"><img src="wp-content/themes/road2argentina-child/img/for-parents.png" alt="For parents"></a>
 								<figcaption>
 									<p>Lorem ipsum dolor sit amet consectetur adipiscing proin gravida</p>
-									<a href="#">Request a Brochure <span class="flecha">&raquo;</span></a>
+									<a href="#">For Parents <span class="flecha">&raquo;</span></a>
 								</figcaption>			
 							</figure>	
 						</div>
@@ -107,19 +110,21 @@
 					<div class="row pb10">
 						<div class="col-sm-6 pr5">
 							<figure class="effect-zoe">
+								<span>Costs &amp;<br> Scholarship</span>
 								<a href="#"><img src="wp-content/themes/road2argentina-child/img/cost.png" alt="Cost"></a>
 								<figcaption>
 									<p>Lorem ipsum dolor sit amet consectetur adipiscing proin gravida</p>
-									<a href="#">Request a Brochure <span class="flecha">&raquo;</span></a>
+									<a href="#">Costs &amp; Scholarship <span class="flecha">&raquo;</span></a>
 								</figcaption>			
 							</figure>
 						</div>
 						<div class="col-sm-6 pl5">
 							<figure class="effect-zoe">
+								<span>FAQs</span>
 								<a href="#"><img src="wp-content/themes/road2argentina-child/img/faq.png" alt="FAQs"></a>
 								<figcaption>
 									<p>Lorem ipsum dolor sit amet consectetur adipiscing proin gravida</p>
-									<a href="#">Request a Brochure <span class="flecha">&raquo;</span></a>
+									<a href="#">FAQs <span class="flecha">&raquo;</span></a>
 								</figcaption>			
 							</figure>
 						</div>

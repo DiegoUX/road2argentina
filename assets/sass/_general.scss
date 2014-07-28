@@ -157,8 +157,18 @@ section.posts-and-links {
 
 	}
 
-	figure.effect-zoe:hover figcaption{
-		visibility: visible !important;
+	figure.effect-zoe:hover {
+		> span {
+			opacity: 0;
+			-webkit-transition: opacity 0.3s ease;
+		    -moz-transition: opacity 0.3s ease;
+		    -o-transition: opacity 0.3s ease;
+		    transition: opacity 0.3s ease;
+		}
+
+		figcaption{
+			visibility: visible !important;
+		}
 	}
 
 	figure.effect-zoe:hover:after {

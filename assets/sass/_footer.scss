@@ -49,6 +49,16 @@ footer {
 			padding: 10px 30px;
 			text-transform: uppercase;
 			margin-top: 10px;
+			-webkit-transition: background-color 0.5s ease;
+		    -moz-transition: background-color 0.5s ease;
+		    -o-transition: background-color 0.5s ease;
+		    transition: background-color 0.5s ease;
+		}
+
+		input[type="submit"]:hover{
+			background-color: $darkAqua;
+			color: $white;
+			text-decoration: none;
 		}
 	}
 
