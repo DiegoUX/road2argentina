@@ -4,40 +4,9 @@
 
 	<section class="slider">
 		<!--Plugin Slider -->
-		<?php echo do_shortcode("[metaslider id=11]"); ?>
+		<?php echo do_shortcode("[metaslider id=45]"); ?>
 		<!--/ Plugin Slider -->
 	</section>
-
-	<section class="video-slider">
-		<h2>What is it like to be in Buenos Aires with us?</h2>
-		<!-- <?php echo do_shortcode('[gallery ids="35,34,33,32"]'); ?> -->
-
-		<div class="left-video">
-			<ul class="bxslider">
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" /></li>
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
-		
-		
-			</ul>
-		</div>
-		<div class="center-video">
-			<ul class="bxslider">
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" /></li>
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>
-			</ul>
-		</div>
-		<div class="right-video">
-			<ul class="bxslider">
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
-			  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>
-				
-			</ul>
-		</div>
-
-	</section>
-
 	<section class="posts-and-links">
 		<div class="container">
 			<div class="row">
@@ -78,7 +47,6 @@
 				<div class="col-sm-6 links-blk pl0-for-large">
 					<div class="row pb10">
 						<div class="col-sm-12">
-							<!-- <a href="#"><img src="wp-content/themes/road2argentina-child/img/brochure.png" alt="Brochure"></a> -->
 							<figure class="effect-zoe">
 								<span>Request a Brochure</span>
 								<img src="wp-content/themes/road2argentina-child/img/brochure.png" alt="Brochure">
@@ -102,9 +70,9 @@
 						</div>
 						<div class="col-sm-8 pl5">
 							<figure class="effect-zoe">
-								<a href="#"><img src="http://placehold.it/320x202" alt=""></a>
+								<!-- <a href="#"><img src="http://placehold.it/320x202" alt=""></a> -->
 								<span>Housing</span>
-								<!-- <a href="#"><img src="wp-content/themes/road2argentina-child/img/roadtrip.png" alt="Roadtrip"></a> -->
+								<a href="#"><img src="wp-content/themes/road2argentina-child/img/housing.png" alt="Housing"></a>
 								<figcaption>
 									<p>Lorem ipsum dolor sit amet consectetur adipiscing proin gravida</p>
 									<a href="#">Housing <span class="flecha">&raquo;</span></a>

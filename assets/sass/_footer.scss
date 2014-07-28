@@ -24,9 +24,21 @@ footer {
 
 	ul.social {
 		li {
-			a {
+			a, a:visited {
 				display: inline-block;
-    			padding: 0 10px 0 0;
+    			padding: 0 8px 0 0;
+    			color: $white;
+    			font-size: 25px;
+    			-webkit-transition: opacity 0.3s ease;
+			    -moz-transition: opacity 0.3s ease;
+			    -o-transition: opacity 0.3s ease;
+			    transition: opacity 0.3s ease;
+			    text-decoration: none;
+			}
+
+			a:hover {
+				text-decoration: none;
+				opacity: 0.7;
 			}
 		}
 	}

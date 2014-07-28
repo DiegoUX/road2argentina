@@ -8,6 +8,10 @@ header {
 		font-size: 14px;
 		text-transform: uppercase;
 		border: 1px solid $aquaGreen;
+		-webkit-transition: opacity 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	    transition: all 0.3s ease;
 	}
 
 	.btn-t:hover {

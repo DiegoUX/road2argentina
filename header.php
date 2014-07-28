@@ -46,6 +46,7 @@
 								</a>
 							</div>
 							<!-- /logo -->
+						</div>	
 
 						<div class="col-sm-8">
 

@@ -1,6 +1,7 @@
 ul.rslides_tabs.rslides1_tabs a {
 	color: $white;
 	font-size: 14px;
+	display: block;
 }
 
 .rslides_tabs .rslides_here a {
@@ -30,15 +31,15 @@ ul.rslides_tabs {
 	    margin-right: 1px;
 	    list-style-type: none; 
 	    vertical-align: middle;
-	    /*padding: 23px 0px !important;*/
-	    padding: 2% 1% !important;
-	    
+	    /*padding: 23px 0px !important;*/   
 	    width: 16% !important
 	}
 
 	a {
 		/*padding: 2% 5% !important;*/
 		padding: 0px !important;
+		padding: 15% 0 !important;
+		
 	}
 
 	li.rslides1_s1 {
