@@ -127,8 +127,9 @@ header .container.top-h .row {
   right: 0;
   width: auto;
 }
-/* line 46, ../sass/_header.scss */
-header .container.top-h .row .program-opt {
+/* line 47, ../sass/_header.scss */
+header .container.top-h .row .box-nav .program-opt {
+  display: inline-block;
   background: white;
   border: none;
   font-size: 14px;
@@ -138,24 +139,24 @@ header .container.top-h .row .program-opt {
   color: #999999;
   box-shadow: none;
 }
-/* line 58, ../sass/_header.scss */
+/* line 60, ../sass/_header.scss */
 header .container.top-h .row .col-sm-8 {
   text-align: right;
 }
-/* line 61, ../sass/_header.scss */
+/* line 63, ../sass/_header.scss */
 header .container.top-h .row .col-sm-8 p {
   color: white;
 }
-/* line 65, ../sass/_header.scss */
+/* line 67, ../sass/_header.scss */
 header .container.top-h .row .col-sm-8 .nav-links {
   padding-top: 15px;
 }
-/* line 68, ../sass/_header.scss */
+/* line 70, ../sass/_header.scss */
 header .container.top-h .row .col-sm-8 .nav-links a {
   display: inline-block;
   margin-left: 15px;
 }
-/* line 74, ../sass/_header.scss */
+/* line 76, ../sass/_header.scss */
 header .container.top-h .row .col-sm-8 nav {
   display: inline-block;
 }
@@ -278,19 +279,20 @@ section.sub-footer {
 ul.rslides_tabs.rslides1_tabs a {
   color: white;
   font-size: 14px;
+  display: block;
 }
 
-/* line 6, ../sass/_billboard.scss */
+/* line 7, ../sass/_billboard.scss */
 .rslides_tabs .rslides_here a {
   background: none !important;
 }
 
-/* line 10, ../sass/_billboard.scss */
+/* line 11, ../sass/_billboard.scss */
 ul.rslides_tabs {
   padding: 0px !important;
 }
 
-/* line 14, ../sass/_billboard.scss */
+/* line 15, ../sass/_billboard.scss */
 .rslides_tabs {
   padding: 0px 0px !important;
   background: #003a6c !important;
@@ -303,7 +305,7 @@ ul.rslides_tabs {
   background: linear-gradient(to right, #003a6c 50%, #207cca 50%, #0f8684 50%) !important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003a6c', endColorstr='#0f8684',GradientType=1 ) !important;
 }
-/* line 26, ../sass/_billboard.scss */
+/* line 27, ../sass/_billboard.scss */
 .rslides_tabs li {
   margin: 0px !important;
   display: inline-block;
@@ -340,28 +342,84 @@ ul.rslides_tabs {
 .rslides_tabs li.rslides1_s5 {
   background: #0f8684;
 }
-/* line 64, ../sass/_billboard.scss */
-.rslides_tabs .rslides_here a:after {
-  border-color: red !important;
-  border-width: 0 15px 15px !important;
-  bottom: auto !important;
-  left: auto !important;
-  right: 50px !important;
-  top: -15px !important;
-  display: block !important;
+
+/* line 67, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides_here li {
+  position: relative !important;
+  z-index: 9999;
 }
 
-/* line 75, ../sass/_billboard.scss */
-.rslides_here a:after {
-  border-color: red !important;
-  border-width: 0 15px 15px !important;
-  bottom: auto !important;
-  left: auto !important;
-  right: 50px !important;
-  top: -15px !important;
+/* line 72, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s1.rslides_here li:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #003A6C transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -200%;
+  left: 40px;
 }
 
-/* line 84, ../sass/_billboard.scss */
+/* line 85, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s2.rslides_here li:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #0A5693 transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -200%;
+  left: 35px;
+}
+
+/* line 98, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s3.rslides_here li:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #1372BF transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -200%;
+  left: 45px;
+}
+
+/* line 111, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s4.rslides_here li:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #14A8A6 transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -200%;
+  left: 40px;
+}
+
+/* line 124, ../sass/_billboard.scss */
+ul.rslides_tabs.rslides1_tabs .rslides1_s5.rslides_here li:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #0F8684 transparent;
+  display: block;
+  width: 0;
+  z-index: 99;
+  top: -200%;
+  left: 45px;
+}
+
+/* line 137, ../sass/_billboard.scss */
 .container.billboard-legend {
   position: absolute;
   margin-left: auto;
@@ -373,7 +431,7 @@ ul.rslides_tabs {
   top: 8%;
   z-index: 99;
 }
-/* line 95, ../sass/_billboard.scss */
+/* line 148, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box {
   position: absolute;
   margin-left: auto;
@@ -383,7 +441,7 @@ ul.rslides_tabs {
   width: auto;
   padding-top: 10%;
 }
-/* line 104, ../sass/_billboard.scss */
+/* line 157, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box h1 {
   font-size: 60px;
   color: white;
@@ -391,27 +449,27 @@ ul.rslides_tabs {
   margin: 0px;
   line-height: 1.0em;
 }
-/* line 112, ../sass/_billboard.scss */
+/* line 165, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box p {
   font-size: 24px;
   color: white;
   margin-bottom: 25px;
 }
-/* line 119, ../sass/_billboard.scss */
+/* line 172, ../sass/_billboard.scss */
 .container.billboard-legend .inner-box a {
   color: white;
   font-weight: 600;
   font-size: 16px;
 }
 
-/* line 128, ../sass/_billboard.scss */
+/* line 181, ../sass/_billboard.scss */
 .metaslider .caption-wrap {
   background: none !important;
   text-align: center;
   opacity: 1 !important;
   bottom: 21% !important;
 }
-/* line 134, ../sass/_billboard.scss */
+/* line 187, ../sass/_billboard.scss */
 .metaslider .caption-wrap h1 {
   font-size: 60px;
   color: white !important;
@@ -419,104 +477,16 @@ ul.rslides_tabs {
   margin: 0px;
   line-height: 1.0em;
 }
-/* line 142, ../sass/_billboard.scss */
+/* line 195, ../sass/_billboard.scss */
 .metaslider .caption-wrap p {
   font-size: 24px;
   color: white;
   margin-bottom: 25px;
   margin-top: 10px;
 }
-/* line 149, ../sass/_billboard.scss */
+/* line 202, ../sass/_billboard.scss */
 .metaslider .caption-wrap a {
   color: white;
   font-weight: 600;
   font-size: 16px;
-}
-
-/*--------------------*/
-/* Thumb flip */
-/*--------------------*/
-/* line 161, ../sass/_billboard.scss */
-.color-7 {
-  background-color: #c1b8ab;
-}
-
-/*.nav-thumbflip a {
-	-webkit-perspective: 1000px;
-	perspective: 1000px;
-}*/
-/* line 168, ../sass/_billboard.scss */
-.nav-thumbflip a.prev {
-  -webkit-perspective-origin: 100% 50%;
-  perspective-origin: 100% 50%;
-}
-
-/* line 173, ../sass/_billboard.scss */
-.nav-thumbflip a.next {
-  -webkit-perspective-origin: 0% 50%;
-  perspective-origin: 0% 50%;
-}
-
-/* line 178, ../sass/_billboard.scss */
-.nav-thumbflip .icon-wrap {
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-color: #b1a798;
-  -webkit-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-/* line 187, ../sass/_billboard.scss */
-.nav-thumbflip svg.icon {
-  position: relative;
-  top: 50%;
-  -webkit-transition: fill 0.3s;
-  transition: fill 0.3s;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  fill: #fff;
-}
-
-/* line 197, ../sass/_billboard.scss */
-.nav-thumbflip img {
-  top: 0;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-/* line 205, ../sass/_billboard.scss */
-.nav-thumbflip a.prev img {
-  left: 100%;
-  -webkit-transform: rotateY(90deg);
-  transform: rotateY(90deg);
-  -webkit-transform-origin: 0% 50%;
-  transform-origin: 0% 50%;
-}
-
-/* line 213, ../sass/_billboard.scss */
-.nav-thumbflip a.next img {
-  right: 100%;
-  -webkit-transform: rotateY(-90deg);
-  transform: rotateY(-90deg);
-  -webkit-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
-}
-
-/* line 221, ../sass/_billboard.scss */
-.nav-thumbflip a:hover .icon-wrap {
-  background-color: #fff;
-}
-
-/* line 225, ../sass/_billboard.scss */
-.nav-thumbflip a:hover svg.icon {
-  fill: #c1b8ab;
-}
-
-/* line 229, ../sass/_billboard.scss */
-.nav-thumbflip a:hover img {
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
 }

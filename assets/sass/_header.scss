@@ -43,16 +43,18 @@ header {
 				right:0;
 				width:auto;
 
-				.program-opt {
-					background: $white;
-					border: none;
-					font-size: 14px;
-					padding: 6px;
-					padding-right: 8px;
-					border-bottom: 0px;
-					color: $lightgrey;
-					box-shadow: none;
-
+				.box-nav {
+					.program-opt {
+						display: inline-block;
+						background: $white;
+						border: none;
+						font-size: 14px;
+						padding: 6px;
+						padding-right: 8px;
+						border-bottom: 0px;
+						color: $lightgrey;
+						box-shadow: none;
+					}
 				}
 
 				.col-sm-8 {

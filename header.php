@@ -57,7 +57,7 @@
 									<?php html5blank_nav(); ?>
 								</nav>-->
 								<!-- /nav -->
-								<nav>
+								<div class="box-nav">
 									<select class="program-opt" >
 										<option selected value="#">Program Offerings</option>
 										<option value="#">Study Abroad</option>
@@ -66,7 +66,7 @@
 										<option value="#">Volunteering</option>
 										<option value="#">TEFL Certification</option>
 									</select>
-								</nav>
+								</div>
 								<a href="#" class="btn-t">APPLY NOW</a>
 								<a href="#"><span></span>Contact Us</a>
 							</div>
