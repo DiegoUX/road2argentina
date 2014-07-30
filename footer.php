@@ -37,7 +37,7 @@
 							<!-- /copyright -->	
 						</div>
 						<div class="col-sm-2">
-							<a href="#totop" class="backto">Back to Top</a>
+							<a href="#totop" class="scrollup backto">Back to Top</a>
 						</div>
 					</div>
 				</div>
@@ -57,6 +57,8 @@
 		<!-- bxSlider Javascript file -->
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/custom.js"></script>
+		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/scrolltop.js"></script>
+		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.custom..js"></script>
 
 		<script>
 			$(document).ready(function(){
@@ -72,6 +74,35 @@
 				$('.center-video .bx-prev').click(function(){
 					$('.left-video .bx-prev, .right-video .bx-prev').click();
 				}); 
+			});
+		</script>
+
+		<!--Dropdown menu-->
+		<script>
+				function DropDown(el) {
+		    this.dd = el;
+		    this.initEvents();
+		}
+		DropDown.prototype = {
+		    initEvents : function() {
+		        var obj = this;
+		 
+		        obj.dd.on('click', function(event){
+		            $(this).toggleClass('active');
+		            event.stopPropagation();
+		        }); 
+		    }
+		}
+
+		$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-2').removeClass('active');
+				});
+
 			});
 		</script>
 

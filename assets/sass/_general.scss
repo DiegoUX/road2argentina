@@ -77,6 +77,7 @@ section.quote {
 	blockquote {
 		font-family: 'Merriweather', serif;
 		margin-bottom: 10px;
+		font-style: italic;
 	}
 }
 
@@ -297,4 +298,21 @@ section.video-slider {
 
 .bx-wrapper img {
 	margin: 0 auto;
+}
+
+.bx-controls-direction a:focus, .bx-controls-direction a:hover {
+    text-decoration: none !important;
+}
+
+.contact-form {
+
+	.wpcf7-not-valid-tip {
+    	color: $white !important;
+	}
+
+	div.wpcf7-validation-errors {
+		border: none;
+		background: $white;
+		color: #004E92;
+	}
 }
