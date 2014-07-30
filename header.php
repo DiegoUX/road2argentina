@@ -72,7 +72,7 @@
 
 								</div>
 								<a href="#" class="btn-t">APPLY NOW</a>
-								<a href="#"><span></span>Contact Us</a>
+								<a href="#"><span class="icon-mail"></span>Contact Us</a>
 							</div>
 						</div>
 

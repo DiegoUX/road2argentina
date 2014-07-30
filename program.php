@@ -35,55 +35,64 @@
 					<div class="col-sm-8">
 						<div class="accordion-sec">
 							<h2>Volunteer placements</h2>
-							<span>Placements in the following areas are available to our volunteers:</span>
-
-
-							<div class="panel-group" id="accordion">
-							  <div class="panel panel-default">
-							    <div class="panel-heading">
-							      <h4 class="panel-title">
-							        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-							          Collapsible Group Item #1
-							        </a>
-							      </h4>
-							    </div>
-							    <div id="collapseOne" class="panel-collapse collapse in">
-							      <div class="panel-body">
-							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="panel panel-default">
-							    <div class="panel-heading">
-							      <h4 class="panel-title">
-							        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-							          Collapsible Group Item #2
-							        </a>
-							      </h4>
-							    </div>
-							    <div id="collapseTwo" class="panel-collapse collapse">
-							      <div class="panel-body">
-							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="panel panel-default">
-							    <div class="panel-heading">
-							      <h4 class="panel-title">
-							        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-							          Collapsible Group Item #3
-							        </a>
-							      </h4>
-							    </div>
-							    <div id="collapseThree" class="panel-collapse collapse">
-							      <div class="panel-body">
-							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							      </div>
-							    </div>
-							  </div>
+							<span class="sub-title">Placements in the following areas are available to our volunteers:</span>
+							
+							<div class="collapse-item">
+								<h4 data-toggle="collapse" data-target="#id-1">
+									<span class="icon-more"></span>
+									Volunteer work with children
+								</h4>
+								<div id="id-1" class="collap-info collapse">
+									<h5>Placement Locations</h5>
+									<p>Orphanages, homes for abused children, day cares, and community centers in Buenos Aires.</p>
+									
+									<h5>Tasks</h5>
+									<p>Volunteers help take care of children at centers, help them with their homework, organize educational activities, play games, and provide the children with much needed love and attention.</p>
+									
+									<h5>More Info</h5>
+									<p>Children at these centers come from different backgrounds and most have had a difficult childhood. Many have been abandoned by their parents, abused or have lived on the streets. Volunteers should be prepared to take on these challenges.</p>
+									
+									<h5>Schedule</h5>
+									<p>Flexible, Morning and Afternoon</p>
+									
+									<h5>Spanish Requirement</h5>
+									<p>Basic+</p>
+									<div class="mt20 mb20">
+										<a class="btn btn-small" href="#">Apply Now</a>
+									</div>
+								</div>
 							</div>
+							<div class="collapse-item">
+								<h4 data-toggle="collapse" data-target="#id-2">
+									<span class="icon-more"></span>
+									Help in a Community Soup Kitchen
+								</h4>
 
-
+								<div id="id-2" class="collap-info collapse">
+									<h5>Placement Locations</h5>
+									<p>Community Center in La Boca</p>
+									
+									<h5>Tasks</h5>
+									<p>Volunteers help in preparing lunch (you will learn the secrets of regional plates), setting the tables, cleaning and making the whole process faster and more effective for everyone.</p>
+									
+									<h5>More Info</h5>
+									<p>More than 100 children and adults have lunch at this community center every day. It is a great place to improve your language skills and offer social assistance. In addition, it is the starting point to understanding the workings of the community center and its people.</p>
+									
+									<h5>Schedule</h5>
+									<p>Monday – Friday, 10am – 2pm</p>
+									
+									<h5>Spanish Requirement</h5>
+									<p>Basic+</p>
+									<div class="mt20 mb20">
+										<a class="btn btn-small" href="#">Apply Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text mb20 mt20">
+							<p>Prices listed above are in USD and include housing in our student residence. Accommodation is also available in shared apartments and homestays for an additional fee.</p>
+							<p><span class="icon-info"></span>All prices are expressed in USD.</p>
+							<p><span class="icon-warning"></span>Please note that programs without housing include only the volunteer placement, weekly activities and group dinners.</p>
 						</div>
 					</div>
 					<div class="col-sm-4">
@@ -91,17 +100,17 @@
 							<!-- // <?php dynamic_sidebar( 'widget-sidebar-program' ); ?> -->
 							<h5>INCLUDED IN THE PROGRAM</h5>
 							<ul>
-								<li>Tuition and fees</li>
-								<li>Housing</li>
-								<li>Welcome orientation</li>
-								<li>Airport transfer</li>
-								<li>Cell phone</li>
-								<li>24/7 Staff support</li>
-								<li>Weekly group activities</li>
-								<li>Group dinners</li>
-								<li>Luggage storage</li>
-								<li>Road2Argentina backpack with maps, guides and free passes</li>
-								<li>Postal mail reception</li>
+								<li><span class="icon-thick"></span>Tuition and fees</li>
+								<li><span class="icon-housing"></span>Housing</li>
+								<li><span class="icon-info"></span>Welcome orientation</li>
+								<li><span class="icon-airport"></span>Airport transfer</li>
+								<li><span class="icon-cell"></span>Cell phone</li>
+								<li><span class="icon-user"></span>24/7 Staff support</li>
+								<li><span class="icon-group"></span>Weekly group activities</li>
+								<li><span class="icon-diner"></span>Group dinners</li>
+								<li><span class="icon-luggage"></span>Luggage storage</li>
+								<li><span class="icon-world"></span>Road2Argentina backpack with maps, guides and free passes</li>
+								<li><span class="icon-envelope"></span>Postal mail reception</li>
 							</ul>
 
 							<h5>NO APPLICATION IS REQUIRED!</h5>
@@ -111,6 +120,62 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="video-slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>What do past Road2Argentina volunteers have to say about their experiences?</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="video-container">
+				<div class="left-video">
+					<ul class="bxslider">
+					  <li>
+					  	<div class="contentslider-insert">
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" />
+					  		<div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					  		quis nostrud exercitation.</p>
+					  		</div>
+					  	</div></li>
+					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
+					</ul>
+				</div>
+				<div class="center-video">
+					<ul class="bxslider">
+					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" /></li>
+					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
+					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
+					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>
+					</ul>
+				</div>
+				<div class="right-video">
+					<ul class="bxslider">
+					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
+					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>		
+					</ul>
+				</div>
+			</div>
+		</section>
+
+	<section class="apply">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="apply-container tac">
+						<h2>Interested in becoming a volunteer? We want to hear you from you!</h2>
+						<div class="contact-form">
+								 <?php echo do_shortcode( '[contact-form-7 id="61" title="Contact Form 2"]' ) ?> 
+							</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 		<!-- section -->
 		<section>
@@ -125,7 +190,7 @@
 				<?php the_content(); ?>
 
 
-				<br class="clear">
+				<!--<br class="clear">-->
 
 			</article>
 			<!-- /article -->

@@ -1,4 +1,4 @@
-section.billboard-program {
+ section.billboard-program {
 	
 	.background {
 		text-align: center;
@@ -52,8 +52,60 @@ section.main-program {
 	}
 
 	.accordion-sec {
-		span {
+		color: $gray;
+
+		.collap-info {
+			padding-left: 20px;
+			margin-top: 10px;
+		}
+
+		.collapse-item {
+		    border-bottom: 1px solid #cecece;
+		    padding: 8px 0;
+		  
+		}
+
+		h2 {
+			margin-bottom: 10px;
+		}
+
+		h4 {
+			color: $aquaGreen;
 			font-size: 16px;
+			text-transform: uppercase;
+			cursor: pointer;
+		}
+
+		h5 {
+			font-weight: 600;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		span.sub-title {
+			font-size: 16px;
+			display: block;
+			margin-bottom: 10px;
+		}
+	}
+
+	.text {
+		p {
+			margin-bottom: 20px;
+		}
+
+		span.icon-info {
+			color: #999999;
+			margin-right: 5px;
+			font-size: 16px;
+			vertical-align: top;
+		}
+
+		span.icon-warning {
+			color: #BB2620;
+			margin-right: 5px;
 		}
 	}
 
@@ -81,12 +133,71 @@ section.main-program {
 			line-height: 24px;
 		}
 	}
+}
 
-	.collapse {
-		display: none;
+//Form
+.apply-container.tac {
+
+	h2 {
+		font-size: 1.8em;
 	}
 
-	.collapse.in {
-		display: block;
+	.contact-form {
+		form {
+			p {
+				display: inline-block;
+				vertical-align: bottom;
+				padding-right: 5px;
+				width: auto;
+
+				input {
+					background: $white;
+					border: none;
+					color: $darkGray;
+					padding: 14px;
+					font-size: 12px;
+					width: auto;
+				}
+
+				input[type="submit"] {
+					background-color: $aquaGreen;
+				    margin-top: 10px;
+				    padding: 10px 30px;
+				    text-transform: uppercase;
+				    transition: background-color 0.5s ease 0s;
+				    width: auto;
+				    color: $white;
+				    font-size: 1.3em;
+				}
+
+				input[type="submit"]:hover {
+					background-color: #0f8684;
+	    			color: white;
+	    			text-decoration: none;
+    			}
+			}
+		}
 	}
 }
+
+//Sidebar icons...
+.col-sm-4 {
+	.sidebar {
+		ul {
+			li {
+				span {
+					color: $blueBlue;
+					color: #035493;
+				    display: inline-block;
+				    font-size: 12px;
+				    padding-right: 9px;
+				    text-align: center;
+				    width: 27px;
+				}
+
+			}
+		}
+	}
+}
+
+//Image slider..

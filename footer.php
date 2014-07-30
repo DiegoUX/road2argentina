@@ -58,7 +58,7 @@
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/custom.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/scrolltop.js"></script>
-		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.custom..js"></script>
+		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.custom.79639.js"></script>
 
 		<script>
 			$(document).ready(function(){
