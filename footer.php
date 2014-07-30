@@ -53,6 +53,7 @@
 
 		<!-- jQuery library (served from Google) -->
 		<!-- // <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
 		<!-- bxSlider Javascript file -->
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/custom.js"></script>
