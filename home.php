@@ -4,7 +4,7 @@
 
 	<section class="slider">
 		<!--Plugin Slider -->
-		<?php echo do_shortcode("[metaslider id=45]"); ?>
+		<?php echo do_shortcode("[metaslider id=11]"); ?>
 		<!--/ Plugin Slider -->
 	</section>
 	<section class="posts-and-links">
@@ -58,7 +58,7 @@
 						</div>
 					</div>
 					<div class="row pb10">
-						<div class="col-sm-4 pr5">	
+						<div class="col-sm-4 pr5" id="boxrd">	
 							<figure class="effect-zoe">
 								<span>Road Trip</span>
 								<img src="wp-content/themes/road2argentina-child/img/roadtrip.png" alt="Roadtrip">

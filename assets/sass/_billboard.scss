@@ -32,7 +32,12 @@ ul.rslides_tabs {
 	    list-style-type: none; 
 	    vertical-align: middle;
 	    /*padding: 23px 0px !important;*/   
-	    width: 16% !important
+	    width: 16% !important;
+
+	    a:hover {
+	    	text-decoration: none !important;
+	    	font-weight: 600;
+	    }
 	}
 
 	a {

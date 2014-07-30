@@ -58,16 +58,19 @@
 									<?php html5blank_nav(); ?>
 								</nav>-->
 								<!-- /nav -->
-								<nav>
-									<select class="program-opt" >
-										<option selected value="#">Program Offerings</option>
-										<option value="#">Study Abroad</option>
-										<option value="#">Internships</option>
-										<option value="#">Spanish Classes</option>
-										<option value="#">Volunteering</option>
-										<option value="#">TEFL Certification</option>
-									</select>
-								</nav>
+								<div class="content-program">
+									<div id="dd" class="wrapper-dropdown-2" tabindex="1">
+									    <span>Program Offerings</span>
+									    <ul class="dropdown">
+									        <li><a href="#">Study Abroad</a></li>
+									        <li><a href="#">Internships</a></li>
+									        <li><a href="#">Spanish Classe</a></li>
+									        <li><a href="#">Volunteering</a></li>
+									        <li><a href="#">TEFL Certification</a></li>
+									    </ul>
+									</div>
+
+								</div>
 								<a href="#" class="btn-t">APPLY NOW</a>
 								<a href="#"><span></span>Contact Us</a>
 							</div>
