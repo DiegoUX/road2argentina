@@ -12,6 +12,7 @@
 
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/style3.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">

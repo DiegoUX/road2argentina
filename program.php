@@ -88,6 +88,35 @@
 									</div>
 								</div>
 							</div>
+
+							<div class="collapse-item">
+								<h4 data-toggle="collapse" data-target="#id-3">
+									<span class="icon-more"></span>
+									Help in a Community Soup Kitchen
+								</h4>
+
+								<div id="id-3" class="collap-info collapse">
+									<h5>Placement Locations</h5>
+									<p>Community Center in La Boca</p>
+									
+									<h5>Tasks</h5>
+									<p>Volunteers help in preparing lunch (you will learn the secrets of regional plates), setting the tables, cleaning and making the whole process faster and more effective for everyone.</p>
+									
+									<h5>More Info</h5>
+									<p>More than 100 children and adults have lunch at this community center every day. It is a great place to improve your language skills and offer social assistance. In addition, it is the starting point to understanding the workings of the community center and its people.</p>
+									
+									<h5>Schedule</h5>
+									<p>Monday – Friday, 10am – 2pm</p>
+									
+									<h5>Spanish Requirement</h5>
+									<p>Basic+</p>
+									<div class="mt20 mb20">
+										<a class="btn btn-small" href="#">Apply Now</a>
+									</div>
+								</div>
+							</div>
+
+
 						</div>
 						<div class="text mb20 mt20">
 							<p>Prices listed above are in USD and include housing in our student residence. Accommodation is also available in shared apartments and homestays for an additional fee.</p>
@@ -133,29 +162,120 @@
 		<div class="video-container">
 				<div class="left-video">
 					<ul class="bxslider">
-					  <li>
-					  	<div class="contentslider-insert">
-					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" />
-					  		<div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<li>
+					  	<div class="contentimgtxt">
+					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" />
+					  	</div>
+					  </li>
+					  	<li>
+					  	<div class="contentimgtxt">
+					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					  		quis nostrud exercitation.</p>
-					  		</div>
-					  	</div></li>
-					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
+					  		quis nostrud exercitation ullamco laboris.
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" />
+					  	</div>
+					  </li>
+
+					  
+						<li>
+						  	<div class="contentimgtxt">
+						  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+						  		<span>CORDES SYMMES</span>
+						  		</p>
+						  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" />
+						  	</div>
+						</li>
+
+						<li>
+					  	<div class="contentimgtxt">
+					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" />
+					  	</div>
+					  </li>
+												
+
 					</ul>
 				</div>
 				<div class="center-video">
 					<ul class="bxslider">
-					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" /></li>
-					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" /></li>
-					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
-					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>
+					  <li>
+					  	<div class="contentimgtxt">
+					  		<p>"My volunteer experience in La Boca truly defined my experience. Working at the comedor was an amazing experience. Not only did I get to teach English and interact with kids, I also got to take part in all of the activities that the had to offer."
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" />
+					  	</div>
+					  </li>
+					  <li>
+						  	<div class="contentimgtxt">
+						  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+						  		<span>CORDES SYMMES</span>
+						  		</p>
+						  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" />
+						  	</div>
+						</li>
+					  <li>
+					  	<div class="contentimgtxt">
+					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" />
+					  	</div>
+					  </li>
+					  <li>
+					  	<div class="contentimgtxt">
+					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+					  		<span>CORDES SYMMES</span>	
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" />
+					  	</div>
+					  </li>
 					</ul>
 				</div>
 				<div class="right-video">
 					<ul class="bxslider">
-					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" /></li>
-					  <li><img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" /></li>		
+						<li>
+						  	<div class="contentimgtxt">
+						  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud."
+						  		<span>CORDES SYMMES</span>
+						  		</p>
+						  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" />
+						  	</div>
+						</li>
+					  <li>
+					  	<div class="contentimgtxt">
+					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" />
+					  	</div>
+					  </li>
+					  <li>
+					  	<div class="contentimgtxt">
+					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" />
+					  	</div>
+					  </li>		
+					  <li>
+					  	<div class="contentimgtxt">
+					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					  		quis nostrud exercitation ullamco laboris."
+					  		<span>CORDES SYMMES</span>
+					  		</p>
+					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" />
+					  	</div>
+					  </li>
 					</ul>
 				</div>
 			</div>

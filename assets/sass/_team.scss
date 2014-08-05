@@ -1,0 +1,240 @@
+.main-program.main-team {
+	background: url(../../img/textura-back.png) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	padding: 80px 0px;
+
+  	.col-sm-10.col-sm-offset-1 p {
+  		font-size: 1.3em;
+  		color: #0D558F;
+  		text-align: center;
+  		padding-top: 35px;
+  	}
+}
+
+.team-p .main-caption {
+	font-size: 1.4em !important;
+}
+
+.first-b .boxtxt-img, .second-b .boxtxt-img {
+	position: relative;
+
+  	img {
+  		width: 100%;
+  		cursor: pointer;
+  	}
+
+  	img:hover {
+  		border: 2px solid #60A8E3;
+  	}
+
+  	.subtitles {
+  		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		bottom: 30px;
+		text-align: center;
+		z-index: 5;
+		line-height: 2.1em;
+
+		.name-sub {
+			color: $white;
+			font-size: 1.9em;
+		}
+
+		h4.name-sub {
+			font-weight: 700;
+			font-size: 2.1em;
+			text-transform: uppercase;
+		}
+
+		h5.name-sub {
+			font-size: 1.6em;
+			text-transform: uppercase;
+		}
+  	}
+}
+
+.boxtxt-img:after {
+  		background: none repeat scroll 0 0 rgba(96, 168, 227, 0.5);
+  		content: "";
+    	height: 100%;
+    	position: absolute;
+    	top: 0;
+    	width: 100%;
+    	z-index: 0;
+  	}
+
+.boxtxt-img:hover:after {
+	background: none !important;
+	z-index: -1;
+}
+
+.team-choose {
+	background: #26A5AC;
+	text-align: center;
+	padding: 60px 0px;
+
+	a {
+		color: #A2FAFB !important;
+		font-size: 60px;
+		border: 2px solid #A2FAFB;
+		border-radius: 90px;
+		padding: 25px;
+		position: relative;
+		display: inline-block;
+		margin: 0px 16%;
+	}
+
+	a.icon-group {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+
+	a:hover {
+		text-decoration: none;
+		background: #A2FAFB;
+		color: #26A5AC !important;
+	}
+
+	a:hover:after {
+		content: "";
+		border-width: 19px 10px 0;
+		border-style: solid;
+		border-color: #A2FAFB transparent;
+		position: absolute;
+		left: 46px;
+		bottom: -14px
+	}
+
+	h3 {
+		color: $white;
+		font-size: 2.3em;
+	}
+
+}
+
+.adv-content {
+	margin: auto;
+	position: relative;
+	top: 30%;
+	width: 34%;
+	text-align: center;
+
+	h3 {
+		text-transform: uppercase;
+		color: $white;
+		font-weight: 700;
+		font-size: 2.8em;
+		margin: 0px;
+		line-height: 0.8em;
+	}
+
+	h4 {
+		color: $white;
+		font-size: 2.1em;
+	}
+
+	a {
+		color: $white !important;
+		font-size: 2.9em;
+		display: inline-block;
+		margin: 5px 10px 0px;
+	}
+
+	p {
+		font-size: 1.3em;
+		color: $white;
+		line-height: 1.6em;
+		margin: 20px 0px;
+	}
+
+	a:hover, a:active, a:focus {
+		text-decoration: none;
+		opacity: 0.5;
+		color: $white;
+	}
+}
+
+//Tabs
+#tab-box {
+    margin: 0 auto;
+    position: relative;
+    min-height: 335px;
+}
+ 
+.tab {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+ 
+.tab:first-of-type {
+    margin-left: 0;
+}
+
+.tab span:first-of-type a {
+    cursor: pointer;
+    display: inline-block;
+    color: #c4d0de;
+    text-decoration: none;
+}
+
+.tab:target span:first-of-type a {
+	background: none repeat scroll 0 0 #a2fafb;
+    color: #26a5ac !important;
+}
+
+.tab:target span:first-of-type a:after {
+	content: "";
+	border-width: 19px 10px 0;
+	border-style: solid;
+	border-color: #A2FAFB transparent;
+	position: absolute;
+	left: 46px;
+	bottom: -14px;
+	z-index: 99999;
+}
+
+.tab:target span {
+    z-index: 1;
+}
+
+.tab p {
+    padding: 0; 
+    margin: 0;
+    text-align: justify;
+}
+  
+.tab span:nth-of-type(2) {
+    display: block;
+    background: #26A5AC;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 55%;
+    margin-top: 6%;
+    min-height: 160px;
+
+    p, h6 {
+    	text-align: center;
+    }
+
+    h6 {
+    	color: #A2FAFB;
+    	font-weight: 700;
+    	font-size: 1.3em;
+    	margin-bottom: 18px;
+    }
+
+    p {
+    	color: $white;
+    	line-height: 1.6em;
+    }
+}

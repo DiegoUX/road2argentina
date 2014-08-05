@@ -177,6 +177,13 @@ section.main-program {
     			}
 			}
 		}
+
+		.invalid {
+			input[type="submit"] {
+				position: relative;
+				bottom: 20px;
+			}
+		}
 	}
 }
 
@@ -201,3 +208,30 @@ section.main-program {
 }
 
 //Image slider..
+.contentimgtxt {
+	position: relative;
+
+	p {
+		position: absolute;
+		top: 2px;
+		right: 2px;
+		font-family: 'Merriweather';
+		font-size: 20px;
+		color: $white;
+		font-weight: 600;
+		text-align: center;
+		padding: 0px 60px;
+		top: 35%;
+
+		span {
+			display: block;
+			font-family: 'Open Sans';
+			font-weight: 700;
+			text-transform: uppercase;
+			padding-top: 30px;
+		}
+	}
+}
+
+
+
