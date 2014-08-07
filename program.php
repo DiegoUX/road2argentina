@@ -1,8 +1,8 @@
 <?php /* Template Name: Program Template */ get_header(); ?>
 <?php get_header(); ?>
-
+<div id="container" class="intro-effect-fadeout">
 	<main role="main">
-		<section class="billboard-program">
+		<section class="billboard-program bg-img">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-10 tac col-sm-offset-1">
@@ -11,7 +11,9 @@
 							<span class="main-caption">
 								<?php the_meta(); ?>
 							</span>
-							<a href="#" class="btn">Click or scroll to Learn more</a>
+							<a href="#" class="btn trigger">Click or scroll to Learn more</a>
+							<span class="icon-arrow-down"></span>
+							<!-- <button class="trigger" data-info="Click to see the header effect"><span>Trigger</span></button> -->
 						</div>
 					</div>
 				</div>
@@ -212,5 +214,5 @@
 		</section>
 		<!-- /section -->
 	</main>
-
+</div>
 <?php get_footer(); ?>

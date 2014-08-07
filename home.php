@@ -4,7 +4,7 @@
 
 	<section class="slider">
 		<!--Plugin Slider -->
-		<?php echo do_shortcode("[metaslider id=11]"); ?>
+		<?php echo do_shortcode("[metaslider id=45]"); ?>
 		<!--/ Plugin Slider -->
 	</section>
 	<section class="posts-and-links">

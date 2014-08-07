@@ -18,7 +18,7 @@ $fortGray: #979797;
 // Buttons...
 .btn, .btn:visited {
 	background-color: $aquaGreen;
-	text-decoration: none;
+	text-decoration: none !important;
 	padding: 10px 25px;
 	color: $white;
 	font-size: 20px;
