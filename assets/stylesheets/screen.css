@@ -750,43 +750,47 @@ section.posts-and-links .destacado-wra {
   border-bottom: 2.0px solid #ddd;
   margin-bottom: 30px;
   padding-bottom: 30px;
+  margin-right: 14%;
 }
-/* line 129, ../sass/_general.scss */
+/* line 130, ../sass/_general.scss */
 section.posts-and-links .destacado-wra:last-child {
   margin-bottom: 0;
   padding-bottom: 0px;
   border-bottom: 0px;
 }
-/* line 135, ../sass/_general.scss */
+/* line 136, ../sass/_general.scss */
 section.posts-and-links .destacado-wra h3 {
   margin: 1em 0 !important;
+  margin-bottom: 0.5em !important;
 }
-/* line 138, ../sass/_general.scss */
+/* line 140, ../sass/_general.scss */
 section.posts-and-links .destacado-wra h3 > a {
   color: #444444 !important;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 143, ../sass/_general.scss */
+/* line 145, ../sass/_general.scss */
 section.posts-and-links .destacado-wra h3 > a:hover {
   text-decoration: underline;
   color: #444444 !important;
 }
-/* line 149, ../sass/_general.scss */
+/* line 151, ../sass/_general.scss */
 section.posts-and-links .destacado-wra .author > a {
   color: #444;
   text-decoration: none;
 }
-/* line 152, ../sass/_general.scss */
+/* line 154, ../sass/_general.scss */
 section.posts-and-links .destacado-wra .author > a:hover {
   color: #444 !important;
   text-decoration: underline;
 }
-/* line 158, ../sass/_general.scss */
+/* line 160, ../sass/_general.scss */
 section.posts-and-links .destacado-wra .contenido-post {
-  margin-top: 1em;
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
-/* line 165, ../sass/_general.scss */
+/* line 169, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover > span {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
@@ -794,11 +798,11 @@ section.posts-and-links figure.effect-zoe:hover > span {
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 173, ../sass/_general.scss */
+/* line 177, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover figcaption {
   visibility: visible !important;
 }
-/* line 178, ../sass/_general.scss */
+/* line 182, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe:hover:after {
   background: none repeat scroll 0 0 rgba(0, 78, 146, 0.5);
   content: '';
@@ -808,13 +812,13 @@ section.posts-and-links figure.effect-zoe:hover:after {
   position: absolute;
   top: 0;
 }
-/* line 188, ../sass/_general.scss */
+/* line 192, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption {
   transition: all 0.35s ease 0s !important;
   visibility: hidden !important;
   z-index: 100;
 }
-/* line 193, ../sass/_general.scss */
+/* line 197, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a {
   color: #004e92;
   font-size: 16px;
@@ -822,123 +826,123 @@ section.posts-and-links figure.effect-zoe figcaption a {
   display: block;
   text-transform: uppercase;
 }
-/* line 200, ../sass/_general.scss */
+/* line 204, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a span.flecha {
   position: absolute;
   padding-right: 1em;
   right: 0;
 }
-/* line 207, ../sass/_general.scss */
+/* line 211, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe figcaption a:hover {
   text-decoration: none;
 }
-/* line 212, ../sass/_general.scss */
+/* line 216, ../sass/_general.scss */
 section.posts-and-links figure.effect-zoe p {
   left: 0 !important;
   padding: 2em 20% !important;
   width: 100%;
 }
 
-/* line 222, ../sass/_general.scss */
+/* line 226, ../sass/_general.scss */
 .bx-wrapper .bx-controls-direction a {
   text-indent: 0 !important;
 }
 
-/* line 226, ../sass/_general.scss */
+/* line 230, ../sass/_general.scss */
 .bx-next, .bx-prev, .bx-prev:visited, .bx-next:visited {
   font-size: 25px;
   color: white;
   text-decoration: none;
 }
 
-/* line 233, ../sass/_general.scss */
+/* line 237, ../sass/_general.scss */
 .bx-next:hover,
 .bx-prev:hover {
   color: #444444;
   text-decoration: none;
 }
 
-/* line 239, ../sass/_general.scss */
+/* line 243, ../sass/_general.scss */
 section.video-slider h2 {
   text-align: center;
   padding: 20px 0;
 }
 
-/* line 245, ../sass/_general.scss */
+/* line 249, ../sass/_general.scss */
 .center-video {
   margin: 0 auto;
   width: 620px;
 }
-/* line 248, ../sass/_general.scss */
+/* line 252, ../sass/_general.scss */
 .center-video .bx-wrapper .bx-viewport {
   background: transparent;
   border: none;
   box-shadow: none;
 }
-/* line 254, ../sass/_general.scss */
+/* line 258, ../sass/_general.scss */
 .center-video .bx-wrapper .bx-pager {
   bottom: -42px;
 }
-/* line 258, ../sass/_general.scss */
+/* line 262, ../sass/_general.scss */
 .center-video .bx-wrapper .bx-pager.bx-default-pager a, .center-video .bx-wrapper .bx-pager.bx-default-pager a:hover {
   cursor: default !important;
   background: #D7D7D7 !important;
 }
-/* line 263, ../sass/_general.scss */
+/* line 267, ../sass/_general.scss */
 .center-video .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: #14a8a6 !important;
 }
 
-/* line 268, ../sass/_general.scss */
+/* line 272, ../sass/_general.scss */
 .left-video, .right-video {
   width: 620px;
   position: absolute;
 }
-/* line 272, ../sass/_general.scss */
+/* line 276, ../sass/_general.scss */
 .left-video .bx-controls-direction, .left-video .bx-wrapper .bx-pager, .right-video .bx-controls-direction, .right-video .bx-wrapper .bx-pager {
   display: none;
 }
-/* line 276, ../sass/_general.scss */
+/* line 280, ../sass/_general.scss */
 .left-video .bx-wrapper .bx-viewport, .right-video .bx-wrapper .bx-viewport {
   background: transparent;
   border: 2px solid #14a8a6;
   box-shadow: none;
 }
 
-/* line 283, ../sass/_general.scss */
+/* line 287, ../sass/_general.scss */
 .center-video {
   position: absolute;
   margin-left: -310px;
   left: 50%;
 }
 
-/* line 289, ../sass/_general.scss */
+/* line 293, ../sass/_general.scss */
 .left-video {
   margin-left: -980px;
   left: 50%;
 }
 
-/* line 294, ../sass/_general.scss */
+/* line 298, ../sass/_general.scss */
 .right-video {
   margin-right: -980px;
   right: 50%;
 }
 
-/* line 299, ../sass/_general.scss */
+/* line 303, ../sass/_general.scss */
 .bx-wrapper img {
   margin: 0 auto;
 }
 
-/* line 303, ../sass/_general.scss */
+/* line 307, ../sass/_general.scss */
 .bx-controls-direction a:focus, .bx-controls-direction a:hover {
   text-decoration: none !important;
 }
 
-/* line 309, ../sass/_general.scss */
+/* line 313, ../sass/_general.scss */
 .contact-form .wpcf7-not-valid-tip {
   color: white !important;
 }
-/* line 313, ../sass/_general.scss */
+/* line 317, ../sass/_general.scss */
 .contact-form div.wpcf7-validation-errors {
   border: none;
   background: white;
@@ -947,9 +951,14 @@ section.video-slider h2 {
   margin-right: 0px;
 }
 
-/* line 325, ../sass/_general.scss */
+/* line 329, ../sass/_general.scss */
 .home-vs .center-video a.bx-next, .home-vs .center-video a.bx-prev {
   color: white !important;
+}
+
+/* line 334, ../sass/_general.scss */
+.center-video .contentimgtxt p {
+  display: none;
 }
 
 /* line 1, ../sass/_footer.scss */
