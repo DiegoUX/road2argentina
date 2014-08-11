@@ -11,6 +11,7 @@
         <link href='http://fonts.googleapis.com/css?family=Merriweather:300italic' rel='stylesheet' type='text/css'>
 
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/component.css" rel="stylesheet">
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/style3.css" media="screen, projection" rel="stylesheet" type="text/css" />
 

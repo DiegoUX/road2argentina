@@ -1426,10 +1426,11 @@ section.billboard-program .background {
 /* line 13, ../sass/_program.scss */
 section.billboard-program .bill-text {
   position: absolute;
-  top: 250px;
+  top: 300px;
   color: white;
+  z-index: 200;
 }
-/* line 19, ../sass/_program.scss */
+/* line 20, ../sass/_program.scss */
 section.billboard-program h1 {
   font-size: 60px;
   font-weight: 700;
@@ -1437,23 +1438,42 @@ section.billboard-program h1 {
   margin: 0 0 10px 0;
   text-transform: uppercase;
 }
-/* line 27, ../sass/_program.scss */
+/* line 28, ../sass/_program.scss */
 section.billboard-program .main-caption {
   display: block;
   font-size: 24px;
   font-weight: 100;
   margin: 0 0 20px;
 }
-/* line 34, ../sass/_program.scss */
+/* line 35, ../sass/_program.scss */
 section.billboard-program a.btn {
   display: inline-block;
 }
-/* line 38, ../sass/_program.scss */
+/* line 39, ../sass/_program.scss */
 section.billboard-program .post-meta-key {
   display: none;
 }
 
 /* line 44, ../sass/_program.scss */
+.modify .main-program {
+  bottom: 150px;
+  position: relative;
+}
+
+/* line 49, ../sass/_program.scss */
+.modify span.icon-arrow-down {
+  display: none;
+}
+
+/* line 53, ../sass/_program.scss */
+span.icon-arrow-down {
+  color: #14a8a6;
+  font-size: 36px;
+  display: block;
+  margin-top: 25px;
+}
+
+/* line 77, ../sass/_program.scss */
 section.main-program h1 {
   font-size: 60px;
   font-weight: 700;
@@ -1462,74 +1482,74 @@ section.main-program h1 {
   text-transform: uppercase;
   color: #035493;
 }
-/* line 52, ../sass/_program.scss */
+/* line 85, ../sass/_program.scss */
 section.main-program .main-p {
   font-size: 20px;
   color: #444444;
   line-height: 30px;
   font-weight: 100;
 }
-/* line 59, ../sass/_program.scss */
+/* line 92, ../sass/_program.scss */
 section.main-program .accordion-sec {
   color: #444444;
 }
-/* line 62, ../sass/_program.scss */
+/* line 95, ../sass/_program.scss */
 section.main-program .accordion-sec .collap-info {
   padding-left: 20px;
   margin-top: 10px;
 }
-/* line 67, ../sass/_program.scss */
+/* line 100, ../sass/_program.scss */
 section.main-program .accordion-sec .collapse-item {
   border-bottom: 1px solid #cecece;
   padding: 8px 0;
 }
-/* line 73, ../sass/_program.scss */
+/* line 106, ../sass/_program.scss */
 section.main-program .accordion-sec h2 {
   margin-bottom: 10px;
 }
-/* line 77, ../sass/_program.scss */
+/* line 110, ../sass/_program.scss */
 section.main-program .accordion-sec h4 {
   color: #14a8a6;
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 84, ../sass/_program.scss */
+/* line 117, ../sass/_program.scss */
 section.main-program .accordion-sec h5 {
   font-weight: 600;
 }
-/* line 88, ../sass/_program.scss */
+/* line 121, ../sass/_program.scss */
 section.main-program .accordion-sec p {
   margin-bottom: 10px;
 }
-/* line 92, ../sass/_program.scss */
+/* line 125, ../sass/_program.scss */
 section.main-program .accordion-sec span.sub-title {
   font-size: 16px;
   display: block;
   margin-bottom: 10px;
 }
-/* line 100, ../sass/_program.scss */
+/* line 133, ../sass/_program.scss */
 section.main-program .text p {
   margin-bottom: 20px;
 }
-/* line 104, ../sass/_program.scss */
+/* line 137, ../sass/_program.scss */
 section.main-program .text span.icon-info {
   color: #999999;
   margin-right: 5px;
   font-size: 16px;
   vertical-align: top;
 }
-/* line 111, ../sass/_program.scss */
+/* line 144, ../sass/_program.scss */
 section.main-program .text span.icon-warning {
   color: #BB2620;
   margin-right: 5px;
 }
-/* line 117, ../sass/_program.scss */
+/* line 150, ../sass/_program.scss */
 section.main-program .sidebar {
   background: #F9F9F9;
   padding: 40px 20px;
 }
-/* line 121, ../sass/_program.scss */
+/* line 154, ../sass/_program.scss */
 section.main-program .sidebar h5 {
   color: #035493;
   font-weight: 700;
@@ -1537,31 +1557,31 @@ section.main-program .sidebar h5 {
   text-transform: uppercase;
   margin-bottom: 5px;
 }
-/* line 129, ../sass/_program.scss */
+/* line 162, ../sass/_program.scss */
 section.main-program .sidebar ul {
   margin-bottom: 40px;
 }
-/* line 132, ../sass/_program.scss */
+/* line 165, ../sass/_program.scss */
 section.main-program .sidebar ul li {
   margin-bottom: 5px;
 }
-/* line 137, ../sass/_program.scss */
+/* line 170, ../sass/_program.scss */
 section.main-program .sidebar p {
   line-height: 24px;
 }
 
-/* line 146, ../sass/_program.scss */
+/* line 179, ../sass/_program.scss */
 .apply-container.tac h2 {
   font-size: 1.8em;
 }
-/* line 152, ../sass/_program.scss */
+/* line 185, ../sass/_program.scss */
 .apply-container.tac .contact-form form p {
   display: inline-block;
   vertical-align: bottom;
   padding-right: 5px;
   width: auto;
 }
-/* line 158, ../sass/_program.scss */
+/* line 191, ../sass/_program.scss */
 .apply-container.tac .contact-form form p input {
   background: white;
   border: none;
@@ -1570,7 +1590,7 @@ section.main-program .sidebar p {
   font-size: 12px;
   width: auto;
 }
-/* line 167, ../sass/_program.scss */
+/* line 200, ../sass/_program.scss */
 .apply-container.tac .contact-form form p input[type="submit"] {
   background-color: #14a8a6;
   margin-top: 10px;
@@ -1581,19 +1601,19 @@ section.main-program .sidebar p {
   color: white;
   font-size: 1.3em;
 }
-/* line 178, ../sass/_program.scss */
+/* line 211, ../sass/_program.scss */
 .apply-container.tac .contact-form form p input[type="submit"]:hover {
   background-color: #0f8684;
   color: white;
   text-decoration: none;
 }
-/* line 187, ../sass/_program.scss */
+/* line 220, ../sass/_program.scss */
 .apply-container.tac .contact-form .invalid input[type="submit"] {
   position: relative;
   bottom: 20px;
 }
 
-/* line 200, ../sass/_program.scss */
+/* line 233, ../sass/_program.scss */
 .col-sm-4 .sidebar ul li span {
   color: #035493;
   color: #035493;
@@ -1604,12 +1624,12 @@ section.main-program .sidebar p {
   width: 27px;
 }
 
-/* line 216, ../sass/_program.scss */
+/* line 249, ../sass/_program.scss */
 .contentimgtxt {
   position: relative;
   min-height: 378px;
 }
-/* line 220, ../sass/_program.scss */
+/* line 253, ../sass/_program.scss */
 .contentimgtxt p {
   position: absolute;
   top: 2px;
@@ -1622,7 +1642,7 @@ section.main-program .sidebar p {
   padding: 0px 60px;
   top: 35%;
 }
-/* line 232, ../sass/_program.scss */
+/* line 265, ../sass/_program.scss */
 .contentimgtxt p span {
   display: block;
   font-family: 'Open Sans';
@@ -1631,17 +1651,17 @@ section.main-program .sidebar p {
   padding-top: 30px;
 }
 
-/* line 243, ../sass/_program.scss */
+/* line 276, ../sass/_program.scss */
 .left-video .contentimgtxt p, .right-video .contentimgtxt p {
   color: #D7D7D7;
 }
 
-/* line 249, ../sass/_program.scss */
+/* line 282, ../sass/_program.scss */
 .video-slider .center-video a.bx-next, .video-slider .center-video a.bx-prev {
   color: #14a8a6;
 }
 
-/* line 254, ../sass/_program.scss */
+/* line 287, ../sass/_program.scss */
 #it-s {
   font-style: italic;
 }

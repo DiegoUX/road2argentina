@@ -12,8 +12,9 @@
 
 	.bill-text {
 	    position: absolute;
-	    top: 250px;
+	    top: 300px;
 	    color: $white;
+	    z-index: 200;
 	}
 
 	h1 {
@@ -39,6 +40,38 @@
 		display: none;
 	}
 }
+
+.modify .main-program {
+	bottom: 150px;
+    position: relative;
+}
+
+.modify span.icon-arrow-down {
+	display: none;
+}
+
+span.icon-arrow-down {
+	color: $aquaGreen;
+	font-size: 36px;
+	display: block;
+	margin-top: 25px;
+}
+
+// .modify .main-program h1 {
+// 	opacity: 1;
+// 	-webkit-transition: all 0.5s ease;
+//     -moz-transition: all 0.5s ease;
+//     -o-transition: all 0.5s ease;
+//     transition: all 0.5s ease;
+// }
+
+// .main-program h1 {
+// 	opacity: 0;
+// 	-webkit-transition: all 0.5s ease;
+//     -moz-transition: all 0.5s ease;
+//     -o-transition: all 0.5s ease;
+//     transition: all 0.5s ease;
+// }
 
 section.main-program {
 	h1 {
