@@ -320,3 +320,9 @@ section.video-slider {
 		
 	}
 }
+
+.home-vs {
+	.center-video a.bx-next, .center-video a.bx-prev {
+    	color: $white !important;
+	}
+}

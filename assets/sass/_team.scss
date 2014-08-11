@@ -18,7 +18,7 @@
 	font-size: 1.4em !important;
 }
 
-.first-b .boxtxt-img, .second-b .boxtxt-img {
+.first-b .boxtxt-img, .second-b .boxtxt-img, .third-b .boxtxt-img, .four-b .boxtxt-img, .fif-b .boxtxt-img, .six-b .boxtxt-img, .seven-b .boxtxt-img, .eight-b .boxtxt-img {
 	position: relative;
 
   	img {
@@ -28,6 +28,7 @@
 
   	img:hover {
   		border: 2px solid #60A8E3;
+  		padding: 0px !important;
   	}
 
   	.subtitles {
@@ -59,15 +60,30 @@
   	}
 }
 
+.six-b .boxtxt-img, .seven-b .boxtxt-img, .eight-b .boxtxt-img {
+ 	img:hover {
+  		border: 2px solid #14A9A7 !important;
+  	}
+ }
+
 .boxtxt-img:after {
-  		background: none repeat scroll 0 0 rgba(96, 168, 227, 0.5);
+  		background: none repeat scroll 0 0 rgba(96, 168, 227, 0.7);
   		content: "";
-    	height: 100%;
+    	height: calc(100% - 2px);
     	position: absolute;
     	top: 0;
-    	width: 100%;
+    	width: calc(100% - 2px);
     	z-index: 0;
   	}
+
+.sec-memb .boxtxt-img:after {
+    background: none repeat scroll 0 0 rgba(18, 114, 190, 0.7);
+}
+
+.third-memb .boxtxt-img:after {
+    background: none repeat scroll 0 0 rgba(20, 168, 166, 0.7);
+}
+
 
 .boxtxt-img:hover:after {
 	background: none !important;
@@ -90,9 +106,9 @@
 		margin: 0px 16%;
 	}
 
-	a.icon-group {
-		padding-left: 14px;
-		padding-right: 14px;
+	a.icon-group2 {
+		font-size: 47px;
+		padding: 31px 18px;
 	}
 
 	a:hover {
@@ -114,6 +130,8 @@
 	h3 {
 		color: $white;
 		font-size: 2.3em;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
 	}
 
 }
@@ -148,9 +166,10 @@
 
 	p {
 		font-size: 1.3em;
-		color: $white;
+		color: $white !important;
 		line-height: 1.6em;
 		margin: 20px 0px;
+		padding: 0px !important;
 	}
 
 	a:hover, a:active, a:focus {
@@ -237,4 +256,13 @@
     	color: $white;
     	line-height: 1.6em;
     }
+}
+
+.boxtxt-img img {
+    	width: 100%;
+    	padding: 2px;
+    }
+
+.boxtxt-img {
+	margin-bottom: 30px;
 }

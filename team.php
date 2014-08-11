@@ -47,7 +47,7 @@
 
 					<div class="col-sm-5 second-b">
 						<div class="boxtxt-img">
-							<a id="trigger-overlay-2"><img src="http://placehold.it/492x274"></a>
+							<a id="trigger-overlay-2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sebastian.jpg"></a>
 							<div class="subtitles">
 								<h4 class="name-sub">SEBASTIÁN CADENAS</h4>
 								<h5 class="name-sub">CO-FOUNDER & EXECUTIVE DIRECTOR</h5>
@@ -67,50 +67,149 @@
 					</div>					
 				</div>
 
-				<!--<div class="row">
+				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1">
-						<div class="row">
-							<div class="col-sm-4">
+
+						<div class="row sec-memb">
+
+							<div class="col-sm-4 third-b">
 								<div class="boxtxt-img">
-									<a id="trigger-overlay-3"><img src="http://placehold.it/492x274"></a>
+									<a id="trigger-overlay-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/alie.jpg"></a>
 									<div class="subtitles">
-										<h4 class="name-sub"></h4>
-										<h5 class="name-sub"></h5>
+										<h4 class="name-sub">ALIE CHURCH</h4>
+										<h5 class="name-sub">CO-EXECUTIVE DIRECTOR</h5>
 									</div>
 									<div class="overlay-3 overlay-slidedown">
-										<button type="button" class="overlay-close">Close</button>
-										<div class="adv-content">
-											<h3></h3>
-											<h4></h4>
-											<p></p>
-											<a href="#" target="_blank" class="icon-facebook"></a>
-											<a href="#" target="_blank" class="icon-twitter"></a>
-											<a href="#" target="_blank" class="icon-google"></a>
+											<button type="button" class="overlay-close">Close</button>
+											<div class="adv-content">
+												<h3>ALIE CHURCH</h3>
+												<h4>CO-EXECUTIVE DIRECTOR</h4>
+												<p>Alie is originally from Canada and has a Bachelor’s degree in Education from Michigan State University. She has lived in Buenos Aires for the past four years and has also traveled extensively in Patagonia. She loves yoga and spending time in nature.</p>
+												<a href="#" target="_blank" class="icon-facebook"></a>
+												<a href="#" target="_blank" class="icon-twitter"></a>
+												<a href="#" target="_blank" class="icon-google"></a>
+											</div>
 										</div>
-									</div>
 								</div>
 							</div>
 
-							<div class="col-sm-4">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<div class="col-sm-4 four-b">
+								<div class="boxtxt-img">
+									<a id="trigger-overlay-4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/eden200.jpg"></a>
+									<div class="subtitles">
+										<h4 class="name-sub">EDEN LIGAS</h4>
+										<h5 class="name-sub">PROGRAM DIRECTOR</h5>
+									</div>
+									<div class="overlay-4 overlay-slidedown">
+											<button type="button" class="overlay-close">Close</button>
+											<div class="adv-content">
+												<h3>EDEN LIGAS</h3>
+												<h4>PROGRAM DIRECTOR</h4>
+												<p>Eden is a native New Yorker and has degrees in Marketing and Business Administration. She studied abroad in Spain and has traveled all over South America and parts of Central America and Europe. She loves experiencing new cultures, cooking and yoga.</p>
+												<a href="#" target="_blank" class="icon-facebook"></a>
+												<a href="#" target="_blank" class="icon-twitter"></a>
+												<a href="#" target="_blank" class="icon-google"></a>
+											</div>
+										</div>
+								</div>
 							</div>
 
-							<div class="col-sm-4">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<div class="col-sm-4 fif-b">
+								<div class="boxtxt-img">
+									<a id="trigger-overlay-5"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/lola.jpg"></a>
+									<div class="subtitles">
+										<h4 class="name-sub">LOLA PITA</h4>
+										<h5 class="name-sub">OFFICE MANAGER</h5>
+									</div>
+									<div class="overlay-5 overlay-slidedown">
+											<button type="button" class="overlay-close">Close</button>
+											<div class="adv-content">
+												<h3>LOLA PITA</h3>
+												<h4>OFFICE MANAGER</h4>
+												<p>Lola was born and raised in Buenos Aires and studied Audiovisual Design at the UBA. She has visited many countries in Europe and the Americas, and did a high-school exchange in the United States. She loves soccer and everything related to design.</p>
+												<a href="#" target="_blank" class="icon-facebook"></a>
+												<a href="#" target="_blank" class="icon-twitter"></a>
+												<a href="#" target="_blank" class="icon-google"></a>
+											</div>
+										</div>
+								</div>
 							</div>
+
 						</div>
 					</div>
-				</div>-->
+				</div>
+
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+
+						<div class="row third-memb">
+
+							<div class="col-sm-4 six-b">
+								<div class="boxtxt-img">
+									<a id="trigger-overlay-6"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/beccatake2.jpg"></a>
+									<div class="subtitles">
+										<h4 class="name-sub">BECCA BLOCH</h4>
+										<h5 class="name-sub">PRE-ARRIVAL COORDINATOR</h5>
+									</div>
+									<div class="overlay-6 overlay-slidedown">
+											<button type="button" class="overlay-close">Close</button>
+											<div class="adv-content">
+												<h3>BECCA BLOCH</h3>
+												<h4>PRE-ARRIVAL COORDINATOR</h4>
+												<p>Becca is a Chicago native and has degrees in Human Development and Family Studies. She has volunteered in Ecuador, studied abroad in Spain, traveled throughout Europe, and is now working in Argentina. She loves traveling, dancing, and scrapbooking.</p>
+												<a href="#" target="_blank" class="icon-facebook"></a>
+												<a href="#" target="_blank" class="icon-twitter"></a>
+												<a href="#" target="_blank" class="icon-google"></a>
+											</div>
+										</div>
+								</div>
+							</div>
+
+							<div class="col-sm-4 seven-b">
+								<div class="boxtxt-img">
+									<a id="trigger-overlay-7"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sofi200b.jpg"></a>
+									<div class="subtitles">
+										<h4 class="name-sub">SOFÍA CASASBELLAS</h4>
+										<h5 class="name-sub">PROGRAM COORDINATOR</h5>
+									</div>
+									<div class="overlay-7 overlay-slidedown">
+											<button type="button" class="overlay-close">Close</button>
+											<div class="adv-content">
+												<h3>SOFÍA CASASBELLAS</h3>
+												<h4>PROGRAM COORDINATOR</h4>
+												<p>Sofi is from Buenos Aires and is currently working towards her Law degree at the UBA. She has lived abroad in France and New Zealand and loves traveling, meeting new people and speaking foreign languages.</p>
+												<a href="#" target="_blank" class="icon-facebook"></a>
+												<a href="#" target="_blank" class="icon-twitter"></a>
+												<a href="#" target="_blank" class="icon-google"></a>
+											</div>
+										</div>
+								</div>
+							</div>
+
+							<div class="col-sm-4 eight-b">
+								<div class="boxtxt-img">
+									<a id="trigger-overlay-8"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/iarasquare200b.jpg"></a>
+									<div class="subtitles">
+										<h4 class="name-sub">IARA GALICER</h4>
+										<h5 class="name-sub">RECEPCIONIST</h5>
+									</div>
+									<div class="overlay-8 overlay-slidedown">
+											<button type="button" class="overlay-close">Close</button>
+											<div class="adv-content">
+												<h3>IARA GALICER</h3>
+												<h4>RECEPCIONIST</h4>
+												<p>Iara is from Buenos Aires and is currently completing her degree in Hotel Management. She loves to travel and spent a year volunteering abroad in Israel. Iara loves old books, doing jigsaw puzzles, camping and spending time outdoors.</p>
+												<a href="#" target="_blank" class="icon-facebook"></a>
+												<a href="#" target="_blank" class="icon-twitter"></a>
+												<a href="#" target="_blank" class="icon-google"></a>
+											</div>
+										</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
 
 				<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
@@ -149,7 +248,7 @@
 						        </span>
 						    </div>
 						    <div id="tab-3" class="tab">
-						        <span><a href="#tab-4" class="icon-group"></a></span>
+						        <span><a href="#tab-4" class="icon-group2"></a></span>
 						        <span>
 						        <h6>Community</h6>
 								<p>When you choose Road2Argentina, you become a part of our community. We work hard to make sure that each participant becomes fully integrated within the Road community. Our friendly staff organizes weekly social activities and outings, along with monthly group dinners where Roadies get to know each other.</p>

@@ -3,6 +3,11 @@
 	.background {
 		text-align: center;
 		background: $darkBlue;
+		/*height: 100vh;
+
+		img {
+			min-height: 100%;
+		}*/
 	}
 
 	.bill-text {
@@ -210,6 +215,7 @@ section.main-program {
 //Image slider..
 .contentimgtxt {
 	position: relative;
+	min-height: 378px;
 
 	p {
 		position: absolute;
@@ -231,6 +237,22 @@ section.main-program {
 			padding-top: 30px;
 		}
 	}
+}
+
+.left-video .contentimgtxt, .right-video .contentimgtxt {
+	p {
+		color: #D7D7D7;
+	}
+}
+
+.video-slider {
+	.center-video a.bx-next, .center-video a.bx-prev {
+    	color: $aquaGreen;
+	}
+}
+
+#it-s {
+	font-style: italic;
 }
 
 

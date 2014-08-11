@@ -92,24 +92,140 @@
 							<div class="collapse-item">
 								<h4 data-toggle="collapse" data-target="#id-3">
 									<span class="icon-more"></span>
-									Help in a Community Soup Kitchen
+									Recreational Activities for Children
 								</h4>
 
 								<div id="id-3" class="collap-info collapse">
 									<h5>Placement Locations</h5>
-									<p>Community Center in La Boca</p>
+									<p>Community Centers in Buenos Aires</p>
 									
 									<h5>Tasks</h5>
-									<p>Volunteers help in preparing lunch (you will learn the secrets of regional plates), setting the tables, cleaning and making the whole process faster and more effective for everyone.</p>
+									<p>Volunteers organize and carry out recreational activities, after-school learning projects and sports events for children in need.</p>
 									
 									<h5>More Info</h5>
-									<p>More than 100 children and adults have lunch at this community center every day. It is a great place to improve your language skills and offer social assistance. In addition, it is the starting point to understanding the workings of the community center and its people.</p>
+									<p>These volunteer placements are in communities where parents, grandparents and children complete all their daily activities in a small, crowded and precarious home with no privacy, no silence for studying and no toys to play with. Since the streets where they live can be dangerous, children have no space to play. Here you will volunteer at centers where children feel happy and can play and learn in a safe environment.</p>
 									
 									<h5>Schedule</h5>
-									<p>Monday – Friday, 10am – 2pm</p>
+									<p>Flexible; afternoons and weekends.</p>
 									
 									<h5>Spanish Requirement</h5>
 									<p>Basic+</p>
+									<div class="mt20 mb20">
+										<a class="btn btn-small" href="#">Apply Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="collapse-item">
+								<h4 data-toggle="collapse" data-target="#id-4">
+									<span class="icon-more"></span>
+									Teaching English to Children
+								</h4>
+
+								<div id="id-4" class="collap-info collapse">
+									<h5>Placement Locations</h5>
+									<p>Schools and community centers in Buenos Aires.</p>
+									
+									<h5>Tasks</h5>
+									<p>Volunteers will teach English to children in small groups, helping them with speaking, listening, writing, reading, grammar and vocabulary lessons. They may also be asked to work one-on-one with specific children.</p>
+									
+									<h5>More Info</h5>
+									<p>For many of the children who attend the different educational support centers, learning English is difficult. In school, they are not able to easily understand the material and struggle to pass their exams. As these children come from needy communities, they may not have the school support at home in order to excel in their classes. Having native English speaker as volunteer teachers opens the door to foreign language learning.</p>
+									
+									<h5>Schedule</h5>
+									<p>Flexible. Available March – December.</p>
+									
+									<h5>Spanish Requirement</h5>
+									<p>Basic+</p>
+									<div class="mt20 mb20">
+										<a class="btn btn-small" href="#">Apply Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="collapse-item">
+								<h4 data-toggle="collapse" data-target="#id-5">
+									<span class="icon-more"></span>
+									Teaching English to Adults
+								</h4>
+
+								<div id="id-5" class="collap-info collapse">
+									<h5>Placement Locations</h5>
+									<p>Community centers in Buenos Aires.</p>
+									
+									<h5>Tasks</h5>
+									<p>Volunteers will teach English to adults in small groups, helping them with speaking, listening, writing, reading, grammar and vocabulary lessons. They may also be asked to work with adults one-on-one.</p>
+									
+									<h5>More Info</h5>
+									<p>Adults need extra time and patience to when learning a new language as the majority of them think they will never be able to speak another language, especially at their age. The volunteer’s goal is try to change this by showing them that learning English is an important tool, that they can set a good example to their kids and that it can also be fun and ultimately therapeutic.</p>
+									
+									<h5>Schedule</h5>
+									<p>Flexible. Available March – December.</p>
+									
+									<h5>Spanish Requirement</h5>
+									<p>Intermediate</p>
+									<div class="mt20 mb20">
+										<a class="btn btn-small" href="#">Apply Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="collapse-item">
+								<h4 data-toggle="collapse" data-target="#id-6">
+									<span class="icon-more"></span>
+									Continuing Education for Adults
+								</h4>
+
+								<div id="id-6" class="collap-info collapse">
+									<h5>Placement Locations</h5>
+									<p>Community centers in Buenos Aires.</p>
+									
+									<h5>Tasks</h5>
+									<p>Volunteers will share their knowledge and specific skills with adults from needy communities. Areas include: basic computer classes (word, excel, internet search), math, social sciences, English language, and vocational trades.</p>
+									
+									<h5>More Info</h5>
+									<p>Adults who assist these community centers were not able to finish their high school education. Many of them had to start working at a very young age and then never had the chance to go back to school. The aim is to bring education to them through workshops by teaching the basics of primary and secondary school.</p>
+									
+									<h5>Schedule</h5>
+									<p>Flexible. Available March – December.</p>
+									
+									<h5>Spanish Requirement</h5>
+									<p>Intermediate</p>
+									<div class="mt20 mb20">
+										<a class="btn btn-small" href="#">Apply Now</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="collapse-item">
+								<h4 data-toggle="collapse" data-target="#id-7">
+									<span class="icon-more"></span>
+									Volunteer in Sustainable Development
+								</h4>
+
+								<div id="id-7" class="collap-info collapse">
+									<h5>Placement Locations</h5>
+									<p>Sustainable Development NGO in Buenos Aires.</p>
+									
+									<h5>Tasks</h5>
+									<p>
+										<ul>
+											<li>Designing environmentally focused projects</li>
+											<li>Helping with environmental campaigns</li>
+											<li>Assiting with administrative tasks</li>
+											<li>Writing articles for the NGO’s blog and other publications</li>
+											<li>Organizing events</li>
+										</ul>
+									</p>
+									
+									<h5>More Info</h5>
+									<p>In addition, volunteers also have the opportunity to assist in a <span id="it-s">huerta orgánica</span> that is located just outside the Buenos Aires city limits (near La Boca). Here, volunteers assist with gardening tasks, natural construction, recycling and general maintenance of the property.</p>
+									
+									<h5>Schedule</h5>
+									<p>Flexible; 8 week minimum commitment.</p>
+									
+									<h5>Spanish Requirement</h5>
+									<p>Intermediate</p>
 									<div class="mt20 mb20">
 										<a class="btn btn-small" href="#">Apply Now</a>
 									</div>
@@ -167,7 +283,7 @@
 					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 					  		<span>CORDES SYMMES</span>
 					  		</p>
-					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" />
+					  		
 					  	</div>
 					  </li>
 					  	<li>
@@ -177,7 +293,7 @@
 					  		quis nostrud exercitation ullamco laboris.
 					  		<span>CORDES SYMMES</span>
 					  		</p>
-					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" />
+					  		
 					  	</div>
 					  </li>
 
@@ -187,7 +303,7 @@
 						  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 						  		<span>CORDES SYMMES</span>
 						  		</p>
-						  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" />
+						  		
 						  	</div>
 						</li>
 
@@ -196,7 +312,7 @@
 					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 					  		<span>CORDES SYMMES</span>
 					  		</p>
-					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" />
+					  		
 					  	</div>
 					  </li>
 												
@@ -247,7 +363,7 @@
 						  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud."
 						  		<span>CORDES SYMMES</span>
 						  		</p>
-						  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-2.gif" />
+						  		
 						  	</div>
 						</li>
 					  <li>
@@ -255,7 +371,7 @@
 					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 					  		<span>CORDES SYMMES</span>
 					  		</p>
-					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-3.gif" />
+					  		
 					  	</div>
 					  </li>
 					  <li>
@@ -263,7 +379,7 @@
 					  		<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 					  		<span>CORDES SYMMES</span>
 					  		</p>
-					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-4.gif" />
+					  		
 					  	</div>
 					  </li>		
 					  <li>
@@ -273,7 +389,7 @@
 					  		quis nostrud exercitation ullamco laboris."
 					  		<span>CORDES SYMMES</span>
 					  		</p>
-					  		<img src="http://road2argentina.loc/wp-content/uploads/2014/07/slide-1.gif" />
+					  		
 					  	</div>
 					  </li>
 					</ul>

@@ -82,6 +82,7 @@
 
 		<!--Dropdown menu-->
 		<script>
+		$("#dd ul").addClass("dropdown");
 				function DropDown(el) {
 		    this.dd = el;
 		    this.initEvents();

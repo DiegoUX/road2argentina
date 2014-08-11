@@ -1,5 +1,5 @@
 /* Overlay style */
-.overlay, .overlay-2 {
+.overlay, .overlay-2, .overlay-3, .overlay-4, .overlay-5, .overlay-6, .overlay-7, .overlay-8 {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -10,7 +10,7 @@
 }
 
 /* Overlay closing cross */
-.overlay .overlay-close, .overlay-2 .overlay-close {
+.overlay .overlay-close, .overlay-2 .overlay-close, .overlay-3 .overlay-close, .overlay-4 .overlay-close, .overlay-5 .overlay-close, .overlay-6 .overlay-close, .overlay-7 .overlay-close, .overlay-8  .overlay-close{
 	width: 80px;
 	height: 80px;
 	position: absolute;
@@ -26,7 +26,7 @@
 }
 
 /* Menu style */
-.overlay nav, .overlay-2 nav {
+.overlay nav, .overlay-2 nav, .overlay-3 nav, .overlay-4 nav, .overlay-5 nav, .overlay-6 nav , .overlay-7 nav, .overlay-8 nav {
 	text-align: center;
 	position: relative;
 	top: 50%;
@@ -35,7 +35,7 @@
 	transform: translateY(-50%);
 }
 
-.overlay ul, .overlay-2 ul {
+.overlay ul, .overlay-2 ul, .overlay-3 ul, .overlay-4 ul, .overlay-5 ul, .overlay-6 ul, .overlay-7 ul, .overlay-8 ul {
 	list-style: none;
 	padding: 0;
 	margin: 0 auto;
@@ -44,7 +44,7 @@
 	position: relative;
 }
 
-.overlay ul li, .overlay-2 ul li {
+.overlay ul li, .overlay-2 ul li, .overlay-3 ul li, .overlay-4 ul li, .overlay-5 ul li, .overlay-6 ul li, .overlay-7 ul li, .overlay-8 ul li  {
 	display: block;
 	height: 20%;
 	height: calc(100% / 5);
@@ -53,7 +53,7 @@
 	backface-visibility: hidden;
 }
 
-.overlay ul li a, .overlay-2 ul li a {
+.overlay ul li a, .overlay-2 ul li a, .overlay-3 ul li a, .overlay-4 ul li a, .overlay-5 ul li a, .overlay-6 ul li a, .overlay-7 ul li a, .overlay-8 ul li a {
 	font-size: 54px;
 	font-weight: 300;
 	display: block;
@@ -64,7 +64,13 @@
 
 .overlay ul li a:hover,
 .overlay ul li a:focus, .overlay-2 ul li a:hover,
-.overlay-2 ul li a:focus {
+.overlay-2 ul li a:focus, .overlay-3 ul li a:hover,
+.overlay-3 ul li a:focus, .overlay-4 ul li a:hover,
+.overlay-4 ul li a:focus, .overlay-5 ul li a:hover,
+.overlay-5 ul li a:focus, .overlay-6 ul li a:hover,
+.overlay-6 ul li a:focus, .overlay-7 ul li a:hover,
+.overlay-7 ul li a:focus, .overlay-8 ul li a:hover,
+.overlay-8 ul li a:focus {
 	color: #e3fcb1;
 }
 
@@ -87,11 +93,11 @@
 }
 
 @media screen and (max-height: 30.5em) {
-	.overlay nav, .overlay-2 nav {
+	.overlay nav, .overlay-2 nav, .overlay-3 nav, .overlay-4 nav, .overlay-5 nav, .overlay-6 nav, .overlay-7 nav, .overlay-8 nav {
 		height: 70%;
 		font-size: 34px;
 	}
-	.overlay ul li, .overlay-2 ul li {
+	.overlay ul li, .overlay-2 ul li, .overlay-3 ul li, .overlay-4 ul li, .overlay-5 ul li, .overlay-6 ul li, .overlay-7 ul li, .overlay-8 ul li {
 		min-height: 34px;
 	}
 }

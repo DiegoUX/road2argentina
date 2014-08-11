@@ -28,7 +28,11 @@ header {
 		position: relative;
 		padding-top: 30px;
 	}
-	
+
+	.con-link {
+		margin-left: 0px !important;
+	}
+
 
 	.container.top-h {
 			position: absolute;
@@ -160,7 +164,9 @@ header {
 	.nav-links {
 		span.icon-mail {
 			font-size: 1.4em;
-			padding-right: 10px;
+			padding-left: 18px;
+			padding-right: 8px;
+			color: #14a8a6;
 		}
 	}
 }
