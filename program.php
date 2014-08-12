@@ -13,7 +13,7 @@
 								<?php the_meta(); ?>
 							</span>
 							<a href="#" class="btn trigger">Click or scroll to Learn more</a>
-							<span class="icon-arrow-down"></span>
+							<span class="icon-arrow-down trigger"></span>
 							<!-- <button class="trigger" data-info="Click to see the header effect"><span>Trigger</span></button> -->
 						</div>
 					</div>

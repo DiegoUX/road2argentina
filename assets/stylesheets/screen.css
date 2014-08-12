@@ -955,9 +955,8 @@ section.video-slider h2 {
 .home-vs .center-video a.bx-next, .home-vs .center-video a.bx-prev {
   color: white !important;
 }
-
-/* line 334, ../sass/_general.scss */
-.center-video .contentimgtxt p {
+/* line 333, ../sass/_general.scss */
+.home-vs .center-video .contentimgtxt p {
   display: none;
 }
 
@@ -1354,6 +1353,62 @@ ul.rslides_tabs.rslides1_tabs .rslides1_s5.rslides_here a:after {
   z-index: 99;
   top: -14%;
   left: 42%;
+}
+
+/* line 294, ../sass/_billboard.scss */
+section.slider .rslides_nav.rslides1_nav.next {
+  color: transparent;
+  padding: 35px;
+  opacity: 1.0;
+  background: rgba(0, 0, 0, 0.5);
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+/* line 305, ../sass/_billboard.scss */
+section.slider .rslides_nav.rslides1_nav.prev {
+  color: transparent;
+  padding: 35px;
+  padding-left: 32px;
+  padding-right: 38px;
+  opacity: 1.0;
+  background: rgba(0, 0, 0, 0.5);
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+/* line 320, ../sass/_billboard.scss */
+section.slider .rslides_nav.rslides1_nav.next:hover {
+  color: transparent;
+  background: #14a8a6;
+}
+/* line 325, ../sass/_billboard.scss */
+section.slider .rslides_nav.rslides1_nav.prev:hover {
+  color: transparent;
+  background: #14a8a6;
+}
+
+/* line 332, ../sass/_billboard.scss */
+section.slider .rslides_nav.rslides1_nav.next:after {
+  content: "\e60c";
+  color: white;
+  font-size: 24px;
+  font-family: 'icomoon';
+  font-weight: 400;
+  padding-right: 5px;
+  opacity: 1.0 !important;
+}
+/* line 342, ../sass/_billboard.scss */
+section.slider .rslides_nav.rslides1_nav.prev:after {
+  content: "\e60b";
+  color: white;
+  font-size: 24px;
+  font-family: 'icomoon';
+  font-weight: 400;
+  opacity: 1.0 !important;
 }
 
 @media only screen and (max-width: 767px) {
