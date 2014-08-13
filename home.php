@@ -5,6 +5,7 @@
 	<section class="slider">
 		<!--Plugin Slider -->
 		<?php echo do_shortcode("[metaslider id=11]"); ?>
+		<img src="wp-content/themes/road2argentina-child/img/sprites.png" class="img-nodisplay">
 		<!--/ Plugin Slider -->
 	</section>
 	<section class="posts-and-links">

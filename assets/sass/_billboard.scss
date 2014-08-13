@@ -36,7 +36,7 @@ ul.rslides_tabs {
 
 	    a:hover {
 	    	text-decoration: none !important;
-	    	font-weight: 600;
+	    	font-weight: bold;
 	    }
 	}
 
@@ -223,6 +223,10 @@ ul.rslides_tabs.rslides1_tabs .rslides_here a {
 	position: relative;
 }
 
+ul.rslides_tabs.rslides1_tabs .rslides_here a:hover {
+	font-weight: bold;
+}
+
 ul.rslides_tabs.rslides1_tabs .rslides1_s1.rslides_here a:after {
 	content: '';
 	position: absolute;
@@ -349,3 +353,31 @@ section.slider {
 	}
 }
 
+//Thumbs images
+section.slider a.rslides_nav.rslides1_nav.next:hover:before {
+    background: url('../../img/sprites.png') -112px 0 no-repeat;
+    content: "";
+    height: 104px;
+    width: 104px;
+    left: -103px;
+    top: 0;
+    position: absolute;
+    /*-moz-transition: all 0.3s ease 0s !important;
+    -webkit-transition: all 0.3s ease 0s !important;
+    -o-transition: all 0.3s ease 0s !important;
+    transition: all 0.3s ease 0s !important;*/
+}
+
+section.slider a.rslides_nav.rslides1_nav.prev:hover:before {
+	background: url('../../img/sprites.png') 0px 0 no-repeat;
+	content: "";
+    height: 104px;
+    width: 104px;
+    left: 98px;
+    top: 0;
+    position: absolute;
+}
+
+.img-nodisplay {
+	display: none !important;
+}

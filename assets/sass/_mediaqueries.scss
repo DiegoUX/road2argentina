@@ -61,3 +61,37 @@
 	    margin-left: 0;
 	}
 }
+
+//Image of billboard Home adjustment
+@media (max-width:1160px) and (min-width:980px) {
+	.bg-img img {
+		left: -15%;
+		min-width: 130%;
+	}
+}
+
+@media (max-width:1059px) and (min-width:980px) {
+	.bg-img img {
+		left: -20%;
+		min-width: 140%;
+	}
+}
+
+@media (max-width:979px) and (min-width:859px) {
+	.bg-img img {
+		left: -30%;
+		min-width: 160%;
+	}
+}
+
+@media (max-width:860px) and (min-width:768px) {
+	.bg-img img {
+    	left: -40%;
+    	min-width: 180%;
+	}
+}
+/* -Ipad fix just in case-
+min-width: 175%
+left: -38%
+View the property of mediaquiery landscape.
+*/

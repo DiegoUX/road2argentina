@@ -35,9 +35,9 @@ html, body.volunteering, .container-2, body.volunteering .header {
 .bg-img img {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -10%;
 	display: block;
-	min-width: 100%;
+	min-width: 120%;
 	min-height: 100%;
 }
 
