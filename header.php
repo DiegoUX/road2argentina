@@ -74,8 +74,11 @@
 									</div>
 
 								</div>
-								<a href="#" class="btn-t">APPLY NOW</a>
-								<span class="icon-mail"></span><a class="con-link" href="#">Contact Us</a>
+								<!--<a href="#" class="btn-t">APPLY NOW</a>
+								<span class="icon-mail"></span><a class="con-link" href="#">Contact Us</a>-->
+								<div class="content-rh">
+									<?php echo get('contentheader'); ?>
+								</div>
 							</div>
 						</div>
 

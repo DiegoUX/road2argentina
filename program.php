@@ -6,11 +6,12 @@
 		<section class="billboard-program bg-img">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-10 tac col-sm-offset-1">
+					<div class="col-sm-10 tac">
 						<div class="bill-text">
 							<h1><?php the_title(); ?></h1>
 							<span class="main-caption">
-								<?php the_meta(); ?>
+								<?php // the_meta(); ?>
+								 <?php echo get_post_meta(get_the_ID(), 'maincaption',true); ?>
 							</span>
 							<a href="#" class="btn trigger">Click or scroll to Learn more</a>
 							<span class="icon-arrow-down trigger"></span>
@@ -401,6 +402,9 @@
 		</section>
 
 	<section class="apply">
+		<!--<img class="under-apply" src="http://road2argentina.loc/wp-content/themes/road2argentina-child/img/image-applynow.jpg" />-->
+		<?php echo get_image('imgform'); ?>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1">

@@ -83,9 +83,20 @@ section.quote {
 
 // Apply now section...
 section.apply {
-	background: url('/wp-content/themes/road2argentina-child/img/image-applynow.jpg') no-repeat scroll center center transparent;
+	/*background: url('/wp-content/themes/road2argentina-child/img/image-applynow.jpg') no-repeat scroll center center transparent;*/
 	// background-size: cover;
 	height: 404px;
+	overflow: hidden;
+    position: relative;
+
+    .magic_fields {
+	    height: 100%;
+	    left: 50%;
+	    position: absolute;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    max-width: none;
+	}
 
 	.apply-container {
 		position: relative;

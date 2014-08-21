@@ -81,4 +81,8 @@ if (function_exists('register_sidebar'))
     ));
 }
 
+remove_filter( 'the_content', 'wpautop' );
+
+remove_filter( 'the_excerpt', 'wpautop' );
+
 ?>

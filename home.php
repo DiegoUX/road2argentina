@@ -4,8 +4,7 @@
 
 	<section class="slider">
 		<!--Plugin Slider -->
-		<?php echo do_shortcode("[metaslider id=11]"); ?>
-		<img src="wp-content/themes/road2argentina-child/img/sprites.png" class="img-nodisplay">
+		<?php echo do_shortcode("[metaslider id=45]"); ?>
 		<!--/ Plugin Slider -->
 	</section>
 	<section class="posts-and-links">
@@ -45,7 +44,8 @@
 						wp_reset_query();
 					?>
 				</div>
-				<div class="col-sm-6 links-blk pl0-for-large">
+				<?php echo get('links_and_description_boxes'); ?>
+				<!--<div class="col-sm-6 links-blk pl0-for-large">
 					<div class="row pb10">
 						<div class="col-sm-12">
 							<figure class="effect-zoe">
@@ -71,7 +71,6 @@
 						</div>
 						<div class="col-sm-8 pl5">
 							<figure class="effect-zoe">
-								<!-- <a href="#"><img src="http://placehold.it/320x202" alt=""></a> -->
 								<span>Housing</span>
 								<a href="#"><img src="wp-content/themes/road2argentina-child/img/housing.png" alt="Housing"></a>
 								<figcaption>
@@ -115,7 +114,7 @@
 							</figure>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</section>
@@ -123,6 +122,64 @@
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	
 	<?php the_content(); ?>
+
+	<!-- Apply now section -->
+		<section class="apply">
+		<?php echo get_image('imgform'); ?>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="apply-container tac">
+							<h2>Are you ready to live the experience?</h2>
+							<a href="#" class="btn">Apply Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sponsors">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="img-container">
+							<img src="wp-content/themes/road2argentina-child/img/uba.png" alt="Universidad de Buenos Aires">
+						</div>
+						<p>Universidad de Buenos Aires</p>
+					</div>
+					<div class="col-sm-2">
+						<div class="img-container">
+							<img src="wp-content/themes/road2argentina-child/img/george-mason.png" alt="George Mason University">
+						</div>
+						<p>George Mason University</p>
+					</div>
+					<div class="col-sm-2">
+						<div class="img-container">
+							<img src="wp-content/themes/road2argentina-child/img/eli.png" alt="Experiential Learning International">
+						</div>
+						<p>Experiential Learning International</p>
+					</div>
+					<div class="col-sm-2">
+						<div class="img-container">
+							<img src="wp-content/themes/road2argentina-child/img/go-abroad.png" alt="GoAbroad.com">
+						</div>
+						<p>GoAbroad.com</p>
+					</div>
+					<div class="col-sm-2">
+						<div class="img-container">
+							<img src="wp-content/themes/road2argentina-child/img/antipodeans.png" alt="Antipodeans Abroad">
+						</div>
+						<p>Antipodeans Abroad</p>
+					</div>
+					<div class="col-sm-2">
+						<div class="img-container">
+							<img src="wp-content/themes/road2argentina-child/img/uca.png" alt="Universidad Católica Argentina">
+						</div>
+						<p>Universidad Católica Argentina</p>
+					</div>
+				</div>
+			</div>
+		</section>
 		
 	<?php endwhile; ?>
 
@@ -135,6 +192,8 @@
 
 		</article>
 		<!-- /article -->
+
+		
 
 	<?php endif; ?>
 		
